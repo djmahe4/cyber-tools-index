@@ -701,5 +701,18 @@
   {"name": "hackingBuddyGPT", "method": "pipx", "module": "llm", "url": "https://github.com/ipa-lab/hackingBuddyGPT"},
   {"name": "DorkAgent", "method": "pipx", "module": "llm", "url": "https://github.com/yee-yore/DorkAgent"},
   {"name": "cain-agent", "method": "pipx", "module": "llm", "url": "https://github.com/cdxiaodong/cain-agent"},
-  {"name": "mcp_zoomeye", "method": "pip", "module": "llm", "url": "https://github.com/zoomeye-ai/mcp_zoomeye"}
+  {"name": "mcp_zoomeye", "method": "pip", "module": "llm", "url": "https://github.com/zoomeye-ai/mcp_zoomeye"},
+  {"name": "pyonyphe", "method": "pip", "module": "recon", "url": "https://github.com/onyphe/pyonyphe"},
+  {"name": "greynoise-mcp-server", "method": "pip", "module": "llm", "url": "https://github.com/GreyNoise-Intelligence/greynoise-mcp-server"},
+  {"name": "fofa-mcp-server", "method": "pip", "module": "llm", "url": "https://github.com/help116114/fofa-mcp-server"},
+  {"name": "leakix-mcp", "method": "pip", "module": "llm", "url": "https://github.com/LeakIX/leakix-mcp"},
+  {"name": "exploitdb-mcp-server", "method": "pip", "module": "llm", "url": "https://github.com/Cyreslab-AI/exploitdb-mcp-server"},
+  {"name": "mcp-pulsedive", "method": "pip", "module": "llm", "url": "https://github.com/pipeworx-io/mcp-pulsedive"},
+  {"name": "vulners-mcp", "method": "pip", "module": "llm", "url": "https://github.com/vulnersCom/vulners-mcp"},
+  {"name": "publicwww-mcp", "method": "pip", "module": "llm", "url": "https://github.com/publicwww-com/publicwww-mcp"},
+  {"name": "hunter-io-agents", "method": "special", "module": "recon", "url": "https://hunter.io/agents.md"},
+  {"name": "searchcode-mcp", "method": "special", "module": "llm", "url": "https://api.searchcode.com/v1/mcp"},
+  {"name": "domaintools-mcp", "method": "special", "module": "llm", "url": "https://api.domaintools.com/v1/mcp"},
+  {"name": "dnsdumpster", "method": "special", "module": "recon", "url": "https://dnsdumpster.com/developer/"},
+  {"name": "mcp-virustotal", "method": "pip", "module": "llm", "url": "https://github.com/w0h1v/mcp-virustotal"}
 ]
