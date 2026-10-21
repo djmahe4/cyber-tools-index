@@ -514,6 +514,7 @@
   {"name": "sigma-rules", "method": "git", "module": "blueteam", "url": "https://github.com/SigmaHQ/sigma"},
   {"name": "maltrail", "method": "git", "module": "blueteam", "url": "https://github.com/stamparm/maltrail"},
   {"name": "MISP-docker", "method": "git", "module": "blueteam", "url": "https://github.com/MISP/misp-docker"},
+  {"name": "phishkit-triage", "method": "git", "module": "blueteam", "url": "https://github.com/trac3r00/phish-triage"},
   {"name": "wazuh-docker", "method": "git", "module": "blueteam", "url": "https://github.com/wazuh/wazuh-docker"},
   {"name": "velociraptor", "method": "binary", "module": "blueteam", "url": "https://github.com/Velocidex/velociraptor"},
   {"name": "laurel", "method": "binary", "module": "blueteam", "url": "https://github.com/threathunters-io/laurel"},
@@ -699,5 +700,6 @@
   {"name": "AI-Infra-Guard", "method": "git", "module": "llm", "url": "https://github.com/Tencent/AI-Infra-Guard"},
   {"name": "hackingBuddyGPT", "method": "pipx", "module": "llm", "url": "https://github.com/ipa-lab/hackingBuddyGPT"},
   {"name": "DorkAgent", "method": "pipx", "module": "llm", "url": "https://github.com/yee-yore/DorkAgent"},
-  {"name": "cain-agent", "method": "pipx", "module": "llm", "url": "https://github.com/cdxiaodong/cain-agent"}
+  {"name": "cain-agent", "method": "pipx", "module": "llm", "url": "https://github.com/cdxiaodong/cain-agent"},
+  {"name": "mcp_zoomeye", "method": "pip", "module": "llm", "url": "https://github.com/zoomeye-ai/mcp_zoomeye"}
 ]
