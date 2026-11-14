@@ -4742,7 +4742,8 @@
     "name": "L1B3RT4S",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/elder-plinius/L1B3RT4S"
+    "url": "https://github.com/elder-plinius/L1B3RT4S",
+    "description": "Jailbreak prompts for all flagship llms"
   },
   {
     "name": "AISecLists",
