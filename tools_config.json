@@ -143,61 +143,71 @@
     "name": "PyExfil",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/ytisf/PyExfil"
+    "url": "https://github.com/ytisf/PyExfil",
+    "description": "PyExfil is a Python toolkit for researching and stress-testing data exfiltration techniques across various channels, including network, physical, and steganographic methods, primarily for red team simulation and DLP detection testing."
   },
   {
     "name": "usbkill",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/hephaest0s/usbkill"
+    "url": "https://github.com/hephaest0s/usbkill",
+    "description": "usbkill is an anti-forensic kill-switch for Linux, *BSD, and OS X that shuts down the computer upon detecting USB activity, enhancing security against unauthorized access."
   },
   {
     "name": "Vigil",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/deadbits/vigil-llm"
+    "url": "https://github.com/deadbits/vigil-llm",
+    "description": "Vigil is a Python library and REST API for detecting prompt injections, jailbreaks, and other threats in Large Language Model prompts and responses."
   },
   {
     "name": "SET",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/trustedsec/social-engineer-toolkit"
+    "url": "https://github.com/trustedsec/social-engineer-toolkit",
+    "description": "SET is an open-source penetration testing framework for authorized social-engineering assessments, targeting Linux, macOS, and Windows through WSL/WSL2."
   },
   {
     "name": "Zphisher",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/htr-tech/zphisher"
+    "url": "https://github.com/htr-tech/zphisher",
+    "description": "Zphisher is an automated phishing tool with 30+ templates, designed for educational purposes only. It supports multiple tunneling options and can be used on Linux and Termux platforms."
   },
   {
     "name": "EvilGoPhish",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/fin3ss3g0d/evilgophish"
+    "url": "https://github.com/fin3ss3g0d/evilgophish",
+    "description": "EvilGoPhish combines evilginx3 and GoPhish for social engineering and phishing campaigns, targeting web applications and protocols."
   },
   {
     "name": "SquarePhish",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/secureworks/squarephish"
+    "url": "https://github.com/secureworks/squarephish",
+    "description": "SquarePhish is an advanced phishing tool using OAuth Device code authentication flow and QR codes to trick victims into granting access to their accounts."
   },
   {
     "name": "CredMaster",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/knavesec/CredMaster"
+    "url": "https://github.com/knavesec/CredMaster",
+    "description": "CredMaster is a password spraying tool that uses FireProx APIs to rotate IP addresses, enhancing anonymity and evading throttling during authentication attempts."
   },
   {
     "name": "Modlishka",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/drk1wi/Modlishka"
+    "url": "https://github.com/drk1wi/Modlishka",
+    "description": "Modlishka is an open-source penetration testing tool that acts as a man-in-the-middle proxy, transparently handling multi-domain HTTP/HTTPS traffic over a single domain, supporting TLS and non-TLS, and bypassing many common 2FA implementations."
   },
   {
     "name": "CyberChef",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/gchq/CyberChef"
+    "url": "https://github.com/gchq/CyberChef",
+    "description": "CyberChef is a web app for encryption, encoding, compression, and data analysis in browsers and Node.js."
   },
   {
     "name": "Caldera",
