@@ -213,61 +213,71 @@
     "name": "Caldera",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/mitre/caldera"
+    "url": "https://github.com/mitre/caldera",
+    "description": "Caldera is a cyber security platform for automating adversary emulation, assisting manual red-teams, and incident response using the MITRE ATT&CK framework. It includes a core system with a REST API and web interface, and a plugin ecosystem for expanding capabilities."
   },
   {
     "name": "RedEye",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/cisagov/RedEye"
+    "url": "https://github.com/cisagov/RedEye",
+    "description": "RedEye is an open-source visual analytic tool for Red and Blue Team operations, supporting C2 log visualization and analysis."
   },
   {
     "name": "Loki-C2",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/boku7/Loki"
+    "url": "https://github.com/boku7/Loki",
+    "description": "Loki-C2 is a Node.js-based command and control framework for script-jacking vulnerable Electron applications, enabling backdoor and hollowing without invalidating code signing."
   },
   {
     "name": "pspy",
     "method": "binary",
     "module": "misc",
-    "url": "https://github.com/DominicBreuker/pspy"
+    "url": "https://github.com/DominicBreuker/pspy",
+    "description": "pspy is a command-line tool for monitoring Linux processes without root permissions, useful for CTF enumeration and demonstrating command-line security issues."
   },
   {
     "name": "gophish",
     "method": "binary",
     "module": "misc",
-    "url": "https://github.com/gophish/gophish"
+    "url": "https://github.com/gophish/gophish",
+    "description": "Gophish is an open-source phishing toolkit for businesses and penetration testers, enabling quick and easy phishing engagements and security awareness training. It supports Windows, Mac, and Linux platforms."
   },
   {
     "name": "jadx",
     "method": "binary",
     "module": "mobile",
-    "url": "https://github.com/skylot/jadx"
+    "url": "https://github.com/skylot/jadx",
+    "description": "jadx is a command-line and GUI tool for decompiling Android APKs and DEX files to Java source code, supporting various Android and Java file formats."
   },
   {
     "name": "dex2jar",
     "method": "binary",
     "module": "mobile",
-    "url": "https://github.com/pxb1988/dex2jar"
+    "url": "https://github.com/pxb1988/dex2jar",
+    "description": "dex2jar converts Android .dex files to Java .class files for analysis and debugging."
   },
   {
     "name": "sliver-server",
     "method": "binary",
     "module": "misc",
-    "url": "https://github.com/BishopFox/sliver"
+    "url": "https://github.com/BishopFox/sliver",
+    "description": "Sliver is an open-source, cross-platform adversary emulation and red team framework for authorized security testing, supporting C2 over mTLS, WireGuard, HTTP(S), and DNS."
   },
   {
     "name": "sliver-client",
     "method": "binary",
     "module": "misc",
-    "url": "https://github.com/BishopFox/sliver"
+    "url": "https://github.com/BishopFox/sliver",
+    "description": "Sliver is an open-source, cross-platform adversary emulation and red team framework for authorized security testing, supporting C2 over mTLS, WireGuard, HTTP(S), and DNS."
   },
   {
     "name": "trufflehog",
     "method": "binary",
     "module": "misc",
-    "url": "https://github.com/trufflesecurity/trufflehog"
+    "url": "https://github.com/trufflesecurity/trufflehog",
+    "description": "TruffleHog is a tool for discovering, classifying, validating, and analyzing leaked credentials in various sources including Git, chats, wikis, logs, and more. It supports over 800 secret types and can validate the live status of each secret."
   },
   {
     "name": "empire",
