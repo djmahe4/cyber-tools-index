@@ -1683,601 +1683,701 @@
     "name": "QueenSono",
     "method": "source",
     "module": "pwn",
-    "url": "https://github.com/ariary/QueenSono"
+    "url": "https://github.com/ariary/QueenSono",
+    "description": "QueenSono is a Golang tool for ICMP data exfiltration, enabling bindshell, HTTP over ICMP tunneling, and other ICMP-based communication methods."
   },
   {
     "name": "DNSExfiltrator",
     "method": "git",
     "module": "pwn",
-    "url": "https://github.com/Arno0x/DNSExfiltrator"
+    "url": "https://github.com/Arno0x/DNSExfiltrator",
+    "description": "DNSExfiltrator is a tool for covert data exfiltration using DNS requests."
   },
   {
     "name": "Egress-Assess",
     "method": "git",
     "module": "pwn",
-    "url": "https://github.com/FortyNorthSecurity/Egress-Assess"
+    "url": "https://github.com/FortyNorthSecurity/Egress-Assess",
+    "description": "Egress-Assess tests egress data detection capabilities using FTP, HTTP, and HTTPS."
   },
   {
     "name": "Ivy",
     "method": "source",
     "module": "pwn",
-    "url": "https://github.com/optiv/Ivy"
+    "url": "https://github.com/optiv/Ivy",
+    "description": "Ivy is a VBA payload creation framework for executing arbitrary shellcode in memory, bypassing EDRs and signature-based detection."
   },
   {
     "name": "pwninit",
     "method": "cargo",
     "module": "pwn",
-    "url": "https://crates.io/crates/pwninit"
+    "url": "https://crates.io/crates/pwninit",
+    "description": "pwninit automates starting binary exploit challenges for ELF files."
   },
   {
     "name": "AFLplusplus",
     "method": "source",
     "module": "pwn",
-    "url": "https://github.com/AFLplusplus/AFLplusplus"
+    "url": "https://github.com/AFLplusplus/AFLplusplus",
+    "description": "AFL++ is a high-performance fuzzing tool that extends Google's AFL with advanced features like QEMU mode, collision-free coverage, and enhanced mutation techniques, targeting a wide range of applications and protocols."
   },
   {
     "name": "honggfuzz",
     "method": "source",
     "module": "pwn",
-    "url": "https://github.com/google/honggfuzz"
+    "url": "https://github.com/google/honggfuzz",
+    "description": "Honggfuzz is a security-oriented, feedback-driven fuzzer that uses code coverage to evolve inputs, supporting persistent fuzzing for high-speed testing on Linux, macOS, Android, and Windows."
   },
   {
     "name": "radamsa",
     "method": "source",
     "module": "pwn",
-    "url": "https://gitlab.com/akihe/radamsa"
+    "url": "https://gitlab.com/akihe/radamsa",
+    "description": "radamsa is a general-purpose fuzzer for crafting malicious inputs for security testing."
   },
   {
     "name": "metasploit",
     "method": "special",
     "module": "pwn",
-    "url": "https://github.com/rapid7/metasploit-framework"
+    "url": "https://github.com/rapid7/metasploit-framework",
+    "description": "Metasploit Framework is an open-source tool for developing, testing, and using exploit code. It primarily targets network security professionals and ethical hackers for penetration testing and vulnerability assessment."
   },
   {
     "name": "radare2",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=radare2"
+    "url": "https://packages.debian.org/search?keywords=radare2",
+    "description": "radare2 is a free and advanced command line hexadecimal editor and reverse engineering framework for analyzing and manipulating binary files."
   },
   {
     "name": "ghidra",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=ghidra"
+    "url": "https://packages.debian.org/search?keywords=ghidra",
+    "description": "Ghidra is a reverse engineering tool for analyzing and understanding binary software."
   },
   {
     "name": "checksec",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=checksec"
+    "url": "https://packages.debian.org/search?keywords=checksec",
+    "description": "checksec is a Bash script to test executable properties for security vulnerabilities."
   },
   {
     "name": "rizin",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=rizin"
+    "url": "https://packages.debian.org/search?keywords=rizin",
+    "description": "rizin is a reverse engineering framework for analyzing binary files, supporting multiple architectures and protocols."
   },
   {
     "name": "gdb",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=gdb"
+    "url": "https://packages.debian.org/search?keywords=gdb",
+    "description": "GNU Debugger (GDB) is a powerful command-line tool for debugging programs, supporting multiple programming languages and platforms."
   },
   {
     "name": "binwalk",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=binwalk"
+    "url": "https://packages.debian.org/search?keywords=binwalk",
+    "description": "Binwalk is a tool for analyzing binary files and extracting embedded files and firmware."
   },
   {
     "name": "binutils",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=binutils"
+    "url": "https://packages.debian.org/search?keywords=binutils",
+    "description": "binutils: GNU assembler, linker, and binary utilities for various architectures."
   },
   {
     "name": "qemu-user-static",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=qemu-user-static"
+    "url": "https://packages.debian.org/search?keywords=qemu-user-static",
+    "description": "qemu-user-static provides static versions of QEMU user mode emulation binaries, enabling execution of binaries for different architectures on the host system."
   },
   {
     "name": "qemu-system-x86",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=qemu-system-x86"
+    "url": "https://packages.debian.org/search?keywords=qemu-system-x86",
+    "description": "qemu-system-x86: QEMU full system emulation binaries for x86 architecture."
   },
   {
     "name": "valgrind",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=valgrind"
+    "url": "https://packages.debian.org/search?keywords=valgrind",
+    "description": "Valgrind is an instrumentation framework for building dynamic analysis tools, primarily used for memory debugging, memory leak detection, and profiling."
   },
   {
     "name": "rr",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=rr"
+    "url": "https://packages.debian.org/search?keywords=rr",
+    "description": "rr is an application execution recorder, player, and debugger for Linux."
   },
   {
     "name": "ltrace",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=ltrace"
+    "url": "https://packages.debian.org/search?keywords=ltrace",
+    "description": "Tracks runtime library calls in dynamically linked programs, useful for debugging and performance analysis on Linux."
   },
   {
     "name": "strace",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=strace"
+    "url": "https://packages.debian.org/search?keywords=strace",
+    "description": "strace is a system call tracer for debugging and monitoring applications on Unix-like operating systems."
   },
   {
     "name": "hexedit",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=hexedit"
+    "url": "https://packages.debian.org/search?keywords=hexedit",
+    "description": "Hexedit is a simple hexadecimal and ASCII file editor for viewing and editing binary files."
   },
   {
     "name": "upx-ucl",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=upx-ucl"
+    "url": "https://packages.debian.org/search?keywords=upx-ucl",
+    "description": "upx-ucl is an efficient live-compressor for executables, reducing their size without significantly impacting performance."
   },
   {
     "name": "nasm",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=nasm"
+    "url": "https://packages.debian.org/search?keywords=nasm",
+    "description": "nasm is a general-purpose x86 assembler used for writing machine code in assembly language."
   },
   {
     "name": "edb-debugger",
     "method": "apt",
     "module": "reversing",
-    "url": "https://packages.debian.org/search?keywords=edb-debugger"
+    "url": "https://packages.debian.org/search?keywords=edb-debugger",
+    "description": "edb-debugger: Cross-platform x86/x86-64 debugger for debugging applications and systems."
   },
   {
     "name": "angr",
     "method": "pipx",
     "module": "reversing",
-    "url": "https://pypi.org/project/angr/"
+    "url": "https://pypi.org/project/angr/",
+    "description": "angr is a multi-architecture binary analysis toolkit for dynamic symbolic execution and static analyses on binaries, supporting Python 3.12 and later."
   },
   {
     "name": "frida-tools",
     "method": "pipx",
     "module": "reversing",
-    "url": "https://pypi.org/project/frida-tools/"
+    "url": "https://pypi.org/project/frida-tools/",
+    "description": "CLI tools for Frida, enabling dynamic instrumentation and debugging of applications on various platforms."
   },
   {
     "name": "uncompyle6",
     "method": "pipx",
     "module": "reversing",
-    "url": "https://pypi.org/project/uncompyle6/"
+    "url": "https://pypi.org/project/uncompyle6/",
+    "description": "uncompyle6 decompiles Python 3.6+ bytecode to readable source code."
   },
   {
     "name": "pwndbg",
     "method": "git",
     "module": "reversing",
-    "url": "https://github.com/pwndbg/pwndbg"
+    "url": "https://github.com/pwndbg/pwndbg",
+    "description": "pwndbg is a GDB and LLDB plugin that enhances debugging for low-level software developers, reverse-engineers, and exploit developers with features like a robust hexdump command and improved usability."
   },
   {
     "name": "GEF",
     "method": "git",
     "module": "reversing",
-    "url": "https://github.com/hugsy/gef"
+    "url": "https://github.com/hugsy/gef",
+    "description": "GEF (GDB Enhanced Features) is a Python script for GDB that provides advanced debugging capabilities for exploit developers and reverse engineers on Linux, enhancing the debugging experience with architecture-agnostic features and fast execution."
   },
   {
     "name": "peda",
     "method": "git",
     "module": "reversing",
-    "url": "https://github.com/longld/peda"
+    "url": "https://github.com/longld/peda",
+    "description": "PEDA is a Python-based GDB extension for exploit development, enhancing debugging with features like syntax highlighting, disassembly, and ROP gadget search."
   },
   {
     "name": "decomp2dbg",
     "method": "git",
     "module": "reversing",
-    "url": "https://github.com/mahaloz/decomp2dbg"
+    "url": "https://github.com/mahaloz/decomp2dbg",
+    "description": "decomp2dbg is a plugin that syncs symbols between decompilers (IDA Pro, Binary Ninja, Ghidra, angr-management) and debuggers (gdb, GEF, pwndbg) for efficient reverse engineering."
   },
   {
     "name": "Qiling",
     "method": "git",
     "module": "reversing",
-    "url": "https://github.com/qilingframework/qiling"
+    "url": "https://github.com/qilingframework/qiling",
+    "description": "Qiling is an advanced binary emulation framework for cross-architecture and platform analysis, supporting Windows, macOS, Linux, Android, and more. It provides a sandboxed environment for malware analysis and reverse engineering."
   },
   {
     "name": "Krakatau",
     "method": "git",
     "module": "reversing",
-    "url": "https://github.com/Storyyeller/Krakatau"
+    "url": "https://github.com/Storyyeller/Krakatau",
+    "description": "Krakatau is a Java decompiler, assembler, and disassembler that converts binary classfiles to human-readable text, allows modifications, and reassembles them. It handles obfuscated code and supports Java 14 features. Target platform: Java bytecode."
   },
   {
     "name": "pyinstxtractor",
     "method": "git",
     "module": "reversing",
-    "url": "https://github.com/extremecoders-re/pyinstxtractor"
+    "url": "https://github.com/extremecoders-re/pyinstxtractor",
+    "description": "PyInstaller Extractor is a Python script to extract the contents of PyInstaller-generated executable files, fixing pyc headers for decompilation."
   },
   {
     "name": "ELFkickers",
     "method": "source",
     "module": "reversing",
-    "url": "https://github.com/BR903/ELFkickers"
+    "url": "https://github.com/BR903/ELFkickers",
+    "description": "ELFkickers is a collection of programs for accessing and manipulating ELF files, primarily used for cybersecurity analysis and reverse engineering."
   },
   {
     "name": "rappel",
     "method": "source",
     "module": "reversing",
-    "url": "https://github.com/yrp604/rappel"
+    "url": "https://github.com/yrp604/rappel",
+    "description": "Rappel is a Linux-based assembly REPL for x86, amd64, armv7, and armv8, allowing interactive assembly programming and debugging."
   },
   {
     "name": "rp-lin",
     "method": "binary",
     "module": "reversing",
-    "url": "https://github.com/0vercl0k/rp"
+    "url": "https://github.com/0vercl0k/rp",
+    "description": "rp-lin is a fast C++ ROP gadget finder for PE/ELF/Mach-O binaries targeting x86/x64/ARM/ARM64 architectures."
   },
   {
     "name": "jd-gui",
     "method": "binary",
     "module": "reversing",
-    "url": "https://github.com/java-decompiler/jd-gui"
+    "url": "https://github.com/java-decompiler/jd-gui",
+    "description": "JD-GUI is a standalone Java decompiler GUI that displays Java source code from CLASS files, useful for browsing and analyzing Java bytecode."
   },
   {
     "name": "autopsy",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=autopsy"
+    "url": "https://packages.debian.org/search?keywords=autopsy",
+    "description": "Autopsy is a graphical interface to SleuthKit, a suite of command-line tools for forensic analysis of digital evidence."
   },
   {
     "name": "sleuthkit",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=sleuthkit"
+    "url": "https://packages.debian.org/search?keywords=sleuthkit",
+    "description": "Sleuthkit is a set of command-line tools for forensic analysis of volume and filesystem data, supporting multiple platforms and file systems."
   },
   {
     "name": "foremost",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=foremost"
+    "url": "https://packages.debian.org/search?keywords=foremost",
+    "description": "Foremost is a forensic tool for recovering lost files from digital media."
   },
   {
     "name": "scalpel",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=scalpel"
+    "url": "https://packages.debian.org/search?keywords=scalpel",
+    "description": "Scalpel is a fast, filesystem-independent file recovery tool for Linux."
   },
   {
     "name": "dc3dd",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=dc3dd"
+    "url": "https://packages.debian.org/search?keywords=dc3dd",
+    "description": "dc3dd is a forensic version of GNU dd, designed for data acquisition and analysis, supporting various platforms and protocols."
   },
   {
     "name": "dcfldd",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=dcfldd"
+    "url": "https://packages.debian.org/search?keywords=dcfldd",
+    "description": "dcfldd is an enhanced version of dd for forensic and security purposes, supporting various platforms and protocols."
   },
   {
     "name": "testdisk",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=testdisk"
+    "url": "https://packages.debian.org/search?keywords=testdisk",
+    "description": "TestDisk is a free, open-source partition recovery and disk repair tool for Linux and other Unix-like operating systems."
   },
   {
     "name": "extundelete",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=extundelete"
+    "url": "https://packages.debian.org/search?keywords=extundelete",
+    "description": "Extundelete is a utility to recover deleted files from ext3/ext4 partitions."
   },
   {
     "name": "bulk-extractor",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=bulk-extractor"
+    "url": "https://packages.debian.org/search?keywords=bulk-extractor",
+    "description": "bulk-extractor is a forensic tool for extracting files from digital media."
   },
   {
     "name": "libimage-exiftool-perl",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=libimage-exiftool-perl"
+    "url": "https://packages.debian.org/search?keywords=libimage-exiftool-perl",
+    "description": "libimage-exiftool-perl is a Perl library and program to read and write metadata in multimedia files."
   },
   {
     "name": "forensics-extra",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=forensics-extra"
+    "url": "https://packages.debian.org/search?keywords=forensics-extra",
+    "description": "A metapackage for additional console and GUI components in a forensics environment."
   },
   {
     "name": "samdump2",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=samdump2"
+    "url": "https://packages.debian.org/search?keywords=samdump2",
+    "description": "samdump2 is a tool for extracting Windows 2k/NT/XP password hashes from memory dumps."
   },
   {
     "name": "dislocker",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=dislocker"
+    "url": "https://packages.debian.org/search?keywords=dislocker",
+    "description": "dislocker is a command-line tool for reading and writing BitLocker-encrypted volumes on Linux."
   },
   {
     "name": "ssdeep",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=ssdeep"
+    "url": "https://packages.debian.org/search?keywords=ssdeep",
+    "description": "ssdeep is a recursive piecewise hashing tool used for comparing files and detecting similarities."
   },
   {
     "name": "unhide",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=unhide"
+    "url": "https://packages.debian.org/search?keywords=unhide",
+    "description": "unhide is a forensic tool to find hidden processes and ports on Linux systems."
   },
   {
     "name": "hashdeep",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=hashdeep"
+    "url": "https://packages.debian.org/search?keywords=hashdeep",
+    "description": "hashdeep recursively computes hashsums or piecewise hashings for files and directories."
   },
   {
     "name": "recoverjpeg",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=recoverjpeg"
+    "url": "https://packages.debian.org/search?keywords=recoverjpeg",
+    "description": "recoverjpeg is a command-line tool for recovering corrupted JPEG and MOV files on Linux systems."
   },
   {
     "name": "galleta",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=galleta"
+    "url": "https://packages.debian.org/search?keywords=galleta",
+    "description": "galleta is an Internet Explorer cookie forensic analysis tool for Linux."
   },
   {
     "name": "pasco",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=pasco"
+    "url": "https://packages.debian.org/search?keywords=pasco",
+    "description": "pasco is an Internet Explorer cache forensic analysis tool for Debian-based systems."
   },
   {
     "name": "mac-robber",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=mac-robber"
+    "url": "https://packages.debian.org/search?keywords=mac-robber",
+    "description": "mac-robber collects data about allocated files in mounted filesystems, primarily for forensic analysis and system auditing."
   },
   {
     "name": "vinetto",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=vinetto"
+    "url": "https://packages.debian.org/search?keywords=vinetto",
+    "description": "Vinetto is a forensics tool to examine Thumbs.db files."
   },
   {
     "name": "guymager",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=guymager"
+    "url": "https://packages.debian.org/search?keywords=guymager",
+    "description": "Forensic imaging tool based on Qt for creating disk images for forensic analysis."
   },
   {
     "name": "magicrescue",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=magicrescue"
+    "url": "https://packages.debian.org/search?keywords=magicrescue",
+    "description": "magicrescue: recover files by looking for magic bytes, primarily for data recovery on various Linux distributions."
   },
   {
     "name": "memdump",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=memdump"
+    "url": "https://packages.debian.org/search?keywords=memdump",
+    "description": "memdump is a utility to dump memory contents to standard output, primarily used for debugging and forensic analysis on various Linux architectures."
   },
   {
     "name": "rifiuti2",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=rifiuti2"
+    "url": "https://packages.debian.org/search?keywords=rifiuti2",
+    "description": "rifiuti2 is a tool for analyzing Microsoft Windows Recycle Bin files, serving as a replacement for rifiuti."
   },
   {
     "name": "scrounge-ntfs",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=scrounge-ntfs"
+    "url": "https://packages.debian.org/search?keywords=scrounge-ntfs",
+    "description": "scrounge-ntfs is a data recovery program for NTFS filesystems, suitable for Linux."
   },
   {
     "name": "ext3grep",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=ext3grep"
+    "url": "https://packages.debian.org/search?keywords=ext3grep",
+    "description": "ext3grep is a tool to recover deleted files on ext3 filesystems."
   },
   {
     "name": "ext4magic",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=ext4magic"
+    "url": "https://packages.debian.org/search?keywords=ext4magic",
+    "description": "ext4magic is a utility for recovering deleted files from ext3 or ext4 partitions on Linux systems."
   },
   {
     "name": "volatility3",
     "method": "pipx",
     "module": "forensics",
-    "url": "https://pypi.org/project/volatility3/"
+    "url": "https://pypi.org/project/volatility3/",
+    "description": "Volatility3 is a memory forensic framework for analyzing Windows memory dumps."
   },
   {
     "name": "oletools",
     "method": "pipx",
     "module": "forensics",
-    "url": "https://pypi.org/project/oletools/"
+    "url": "https://pypi.org/project/oletools/",
+    "description": "oletools is a Python library for analyzing Microsoft Office files, primarily used for forensic analysis and security research."
   },
   {
     "name": "usbrip",
     "method": "pipx",
     "module": "forensics",
-    "url": "https://pypi.org/project/usbrip/"
+    "url": "https://pypi.org/project/usbrip/",
+    "description": "usbrip is a command-line tool for tracking USB device usage on a Windows system, useful for forensic analysis and security auditing."
   },
   {
     "name": "mvt",
     "method": "pipx",
     "module": "forensics",
-    "url": "https://pypi.org/project/mvt/"
+    "url": "https://pypi.org/project/mvt/",
+    "description": "MVT is a forensic toolkit for Android and iOS devices, collecting traces to identify potential compromises. It supports public IOCs for spyware detection and requires digital forensics knowledge. Target platform: Android/iOS. Usage: mvt-ios, mvt-android commands for analysis. Installation via pip or uv."
   },
   {
     "name": "hachoir",
     "method": "pipx",
     "module": "forensics",
-    "url": "https://pypi.org/project/hachoir/"
+    "url": "https://pypi.org/project/hachoir/",
+    "description": "Hachoir is a Python library for parsing and viewing binary files, allowing users to explore and manipulate file structures."
   },
   {
     "name": "unblob",
     "method": "pipx",
     "module": "forensics",
-    "url": "https://pypi.org/project/unblob/"
+    "url": "https://pypi.org/project/unblob/",
+    "description": "unblob extracts files from various binary container formats, supporting 78+ types including SquashFS, JFFS2, UBI/UBIFS, ext, CPIO, ZIP, and more. It recursively processes nested containers, identifies unknown chunks, and generates detailed JSON reports. Runs as a regular user and is compatible with Linux."
   },
   {
     "name": "peepdf-3",
     "method": "pipx",
     "module": "forensics",
-    "url": "https://pypi.org/project/peepdf-3/"
+    "url": "https://pypi.org/project/peepdf-3/",
+    "description": "peepdf-3 is a Python library for parsing and analyzing PDF files, useful for cybersecurity professionals and researchers."
   },
   {
     "name": "RegRipper",
     "method": "git",
     "module": "forensics",
-    "url": "https://github.com/keydet89/RegRipper3.0"
+    "url": "https://github.com/keydet89/RegRipper3.0",
+    "description": "RegRipper3.0 is a forensic tool for extracting information from Windows Registry hives, supporting both GUI and command-line interfaces for various plugins."
   },
   {
     "name": "Depix",
     "method": "git",
     "module": "forensics",
-    "url": "https://github.com/spipm/Depix"
+    "url": "https://github.com/spipm/Depix",
+    "description": "Depix is a tool for depixelizing images, primarily used for privacy and security purposes. It targets web applications and protocols."
   },
   {
     "name": "dvcs-ripper",
     "method": "git",
     "module": "forensics",
-    "url": "https://github.com/kost/dvcs-ripper"
+    "url": "https://github.com/kost/dvcs-ripper",
+    "description": "dvcs-ripper is a Perl script for downloading and cloning web-accessible version control repositories (SVN, GIT, HG, BZR, etc.) even when directory browsing is disabled."
   },
   {
     "name": "firefox_decrypt",
     "method": "git",
     "module": "forensics",
-    "url": "https://github.com/unode/firefox_decrypt"
+    "url": "https://github.com/unode/firefox_decrypt",
+    "description": "Firefox Decrypt extracts passwords from Mozilla Firefox, Waterfox, Thunderbird, and SeaMonkey profiles using the known master password."
   },
   {
     "name": "firmware-mod-kit",
     "method": "git",
     "module": "forensics",
-    "url": "https://github.com/rampageX/firmware-mod-kit"
+    "url": "https://github.com/rampageX/firmware-mod-kit",
+    "description": "Firmware Mod Kit is a collection of scripts and utilities to extract and rebuild Linux-based firmware images, primarily for embedded devices like routers. It allows users to modify the firmware's file system or web UI and then rebuild and flash the modified firmware onto the device, though this can potentially brick the device if not used carefully."
   },
   {
     "name": "chainsaw",
     "method": "binary",
     "module": "forensics",
-    "url": "https://github.com/WithSecureLabs/chainsaw"
+    "url": "https://github.com/WithSecureLabs/chainsaw",
+    "description": "Chainsaw is a fast Windows forensic tool for searching event logs, using Sigma rules, and extracting artefacts. It runs on MacOS, Linux, and Windows."
   },
   {
     "name": "yara",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=yara"
+    "url": "https://packages.debian.org/search?keywords=yara",
+    "description": "YARA is a pattern matching tool for malware researchers, primarily used to identify malicious files based on patterns in binary code."
   },
   {
     "name": "clamav",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=clamav"
+    "url": "https://packages.debian.org/search?keywords=clamav",
+    "description": "ClamAV is an open-source anti-virus engine for Unix systems, providing a command-line interface for virus scanning and a daemon for continuous monitoring."
   },
   {
     "name": "inetsim",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=inetsim"
+    "url": "https://packages.debian.org/search?keywords=inetsim",
+    "description": "inetsim is a software suite for simulating common internet services, useful for testing and development."
   },
   {
     "name": "quark-engine",
     "method": "pipx",
     "module": "blueteam",
-    "url": "https://pypi.org/project/quark-engine/"
+    "url": "https://pypi.org/project/quark-engine/",
+    "description": "quark-engine is an Android malware scoring system that analyzes obfuscated malware samples to identify and categorize their malicious behaviors, targeting Android devices."
   },
   {
     "name": "yara-x-cli",
     "method": "cargo",
     "module": "blueteam",
-    "url": "https://github.com/VirusTotal/yara-x"
+    "url": "https://github.com/VirusTotal/yara-x",
+    "description": "yara-x-cli is a Rust-based reimplementation of YARA, designed for malware analysis with improved performance and user-friendliness. It allows creating rules to detect patterns in files based on textual or binary data."
   },
   {
     "name": "impacket",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/impacket/"
+    "url": "https://pypi.org/project/impacket/",
+    "description": "Impacket is a Python library for working with network protocols, providing low-level access to packets and protocol implementations. It supports protocols like SMB, MSRPC, and TDS, and can be used for network analysis and security testing."
   },
   {
     "name": "certipy-ad",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/certipy-ad/"
+    "url": "https://pypi.org/project/certipy-ad/",
+    "description": "Certipy-AD is a toolkit for enumerating and abusing Active Directory Certificate Services, supporting various attack paths and misconfigurations."
   },
   {
     "name": "coercer",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/coercer/"
+    "url": "https://pypi.org/project/coercer/",
+    "description": "Coercer is a Python library for manipulating HTTP requests and responses, primarily used for testing and debugging web applications. It targets HTTP/1.1 and is compatible with Python 3.6+."
   },
   {
     "name": "bloodhound",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/bloodhound/"
+    "url": "https://pypi.org/project/bloodhound/",
+    "description": "Bloodhound is a network visualization and analysis tool for Active Directory environments, mapping user and group relationships for security analysis."
   },
   {
     "name": "mitm6",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/mitm6/"
+    "url": "https://pypi.org/project/mitm6/",
+    "description": "mitm6 is a tool for IPv4 over IPv6 Man-in-the-Middle attacks, primarily used for security testing and analysis."
   },
   {
     "name": "lsassy",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/lsassy/"
+    "url": "https://pypi.org/project/lsassy/",
+    "description": "lsassy is a Python script for extracting user credentials from Active Directory using the LDAP protocol."
   },
   {
     "name": "sprayhound",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/sprayhound/"
+    "url": "https://pypi.org/project/sprayhound/",
+    "description": "Sprayhound is a Python library for automating HTTP requests and analyzing responses, primarily used for web application security testing."
   },
   {
     "name": "ldapdomaindump",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/ldapdomaindump/"
+    "url": "https://pypi.org/project/ldapdomaindump/",
+    "description": "ldapdomaindump is a Python tool for extracting information from Active Directory via LDAP, suitable for security assessments and penetration testing."
   },
   {
     "name": "pypykatz",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/pypykatz/"
+    "url": "https://pypi.org/project/pypykatz/",
+    "description": "pypykatz is a Python implementation of Mimikatz, used for extracting credentials from memory on Windows systems."
   },
   {
     "name": "adidnsdump",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/adidnsdump/"
+    "url": "https://pypi.org/project/adidnsdump/",
+    "description": "adidnsdump is a Python tool for dumping DNS records from ADI (Active Directory Integrated) DNS servers, useful for network forensic analysis and penetration testing."
   },
   {
     "name": "dploot",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/dploot/"
+    "url": "https://pypi.org/project/dploot/",
+    "description": "dploot is a Python tool for extracting local administrator passwords from Windows systems using the Windows Management Instrumentation (WMI) interface."
   },
   {
     "name": "bloodyad",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/bloodyad/"
+    "url": "https://pypi.org/project/bloodyad/",
+    "description": "bloodyad is a Python library for automating Active Directory attacks, primarily used for security testing and penetration. It targets Windows environments and supports LDAP protocol."
   },
   {
     "name": "hekatomb",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/hekatomb/"
+    "url": "https://pypi.org/project/hekatomb/",
+    "description": "Hekatomb is a Python library for network traffic analysis and manipulation, primarily used for cybersecurity research and testing."
   },
   {
     "name": "certsync",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/certsync/"
+    "url": "https://pypi.org/project/certsync/",
+    "description": "certsync synchronizes SSL/TLS certificates across multiple servers."
   },
   {
     "name": "masky",
