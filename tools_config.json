@@ -3783,601 +3783,701 @@
     "name": "crytic-medusa",
     "method": "binary",
     "module": "blockchain",
-    "url": "https://github.com/crytic/medusa"
+    "url": "https://github.com/crytic/medusa",
+    "description": "Parallelized, coverage-guided, mutational Solidity smart contract fuzzing tool using go-ethereum."
   },
   {
     "name": "heimdall-rs",
     "method": "binary",
     "module": "blockchain",
-    "url": "https://github.com/Jon-Becker/heimdall-rs"
+    "url": "https://github.com/Jon-Becker/heimdall-rs",
+    "description": "Heimdall-rs is a Rust-based EVM smart contract toolkit for bytecode analysis and contract information extraction."
   },
   {
     "name": "ityfuzz",
     "method": "binary",
     "module": "blockchain",
-    "url": "https://github.com/fuzzland/ityfuzz"
+    "url": "https://github.com/fuzzland/ityfuzz",
+    "description": "ItyFuzz is a fast EVM and MoveVM smart contract hybrid fuzzer combining symbolic execution and fuzzing to find bugs in smart contracts offchain and onchain."
   },
   {
     "name": "checkov",
     "method": "pipx",
     "module": "cloud",
-    "url": "https://github.com/bridgecrewio/checkov"
+    "url": "https://github.com/bridgecrewio/checkov",
+    "description": "Checkov is a static code analysis tool for infrastructure as code (IaC) and software composition analysis (SCA) for images and open source packages, detecting security and compliance misconfigurations across multiple cloud platforms and IaC formats."
   },
   {
     "name": "syft",
     "method": "binary",
     "module": "containers",
-    "url": "https://github.com/anchore/syft"
+    "url": "https://github.com/anchore/syft",
+    "description": "Syft is a CLI tool and Go library for generating Software Bill of Materials (SBOMs) from container images and filesystems, supporting multiple packaging ecosystems and output formats like CycloneDX and SPDX."
   },
   {
     "name": "kubescape",
     "method": "binary",
     "module": "containers",
-    "url": "https://github.com/kubescape/kubescape"
+    "url": "https://github.com/kubescape/kubescape",
+    "description": "Kubescape is an open-source Kubernetes security platform for risk analysis, security, compliance, and misconfiguration scanning."
   },
   {
     "name": "floss",
     "method": "binary",
     "module": "blueteam",
-    "url": "https://github.com/mandiant/flare-floss"
+    "url": "https://github.com/mandiant/flare-floss",
+    "description": "FLOSS is a static analysis tool for malware that automatically extracts and deobfuscates all strings from binary files, enhancing basic static analysis with advanced techniques."
   },
   {
     "name": "capa",
     "method": "binary",
     "module": "blueteam",
-    "url": "https://github.com/mandiant/capa"
+    "url": "https://github.com/mandiant/capa",
+    "description": "capa detects capabilities in executable files, identifying techniques like backdoors, service creation, and network communication."
   },
   {
     "name": "loki",
     "method": "binary",
     "module": "blueteam",
-    "url": "https://github.com/Neo23x0/Loki-RS"
+    "url": "https://github.com/Neo23x0/Loki-RS",
+    "description": "Loki-RS is a high-performance, multi-threaded YARA & IOC scanner for Linux and macOS, designed for incident response and digital forensics."
   },
   {
     "name": "theHarvester",
     "method": "git",
     "module": "recon",
-    "url": "https://github.com/laramies/theHarvester"
+    "url": "https://github.com/laramies/theHarvester",
+    "description": "theHarvester is an open-source intelligence tool for gathering email addresses, subdomains, and names from various public sources for reconnaissance and security assessments."
   },
   {
     "name": "mosint",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/alpkeskin/mosint"
+    "url": "https://github.com/alpkeskin/mosint",
+    "description": "Mosint is an automated email OSINT tool written in Go, designed for security researchers to investigate target emails efficiently, verifying, validating, and checking social media, data breaches, and pastebin dumps."
   },
   {
     "name": "hakrevdns",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/hakluke/hakrevdns"
+    "url": "https://github.com/hakluke/hakrevdns",
+    "description": "hakrevdns is a small, fast tool for performing reverse DNS lookups en masse, useful for finding domains and subdomains from IP addresses. It supports custom resolvers, protocols, and threading."
   },
   {
     "name": "smap",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/s0md3v/smap"
+    "url": "https://github.com/s0md3v/smap",
+    "description": "Smap is a passive port scanner using Shodan.io's API, designed as a drop-in replacement for Nmap with features like vulnerability detection, service/version fingerprinting, and optional Nmap acceleration."
   },
   {
     "name": "Villain",
     "method": "git",
     "module": "pwn",
-    "url": "https://github.com/t3l3machus/Villain"
+    "url": "https://github.com/t3l3machus/Villain",
+    "description": "Villain is a high-level C2 framework for reverse TCP and HoaxShell-based shells, enhancing functionality and sharing among connected servers."
   },
   {
     "name": "steampipe",
     "method": "special",
     "module": "cloud",
-    "url": "https://github.com/turbot/steampipe"
+    "url": "https://github.com/turbot/steampipe",
+    "description": "Steampipe is a zero-ETL tool that allows querying APIs and services using SQL, enabling real-time data access and parallel querying across multiple data sources."
   },
   {
     "name": "evilginx",
     "method": "binary",
     "module": "misc",
-    "url": "https://github.com/kgretzky/evilginx2"
+    "url": "https://github.com/kgretzky/evilginx2",
+    "description": "evilginx is a man-in-the-middle attack framework used for phishing login credentials and session cookies, allowing bypass of 2-factor authentication. It is a successor to Evilginx and is fully written in GO as a standalone application."
   },
   {
     "name": "poppler-utils",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=poppler-utils"
+    "url": "https://packages.debian.org/search?keywords=poppler-utils",
+    "description": "poppler-utils: PDF utilities based on Poppler for extracting text, images, and metadata from PDF files."
   },
   {
     "name": "zbar-tools",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=zbar-tools"
+    "url": "https://packages.debian.org/search?keywords=zbar-tools",
+    "description": "zbar-tools: QR code/bar code scanner and decoder utilities for Linux."
   },
   {
     "name": "sigrok-cli",
     "method": "apt",
     "module": "forensics",
-    "url": "https://github.com/sigrokproject/sigrok-cli"
+    "url": "https://github.com/sigrokproject/sigrok-cli",
+    "description": "sigrok-cli is a command-line interface for the sigrok open-source hardware logic analyzer framework, enabling users to capture and analyze digital signals from hardware devices."
   },
   {
     "name": "pulseview",
     "method": "apt",
     "module": "forensics",
-    "url": "https://github.com/sigrokproject/pulseview"
+    "url": "https://github.com/sigrokproject/pulseview",
+    "description": "PulseView is a free, open-source logic analyzer software for the Sigrok project, designed to capture and analyze digital waveforms from logic analyzers."
   },
   {
     "name": "gtkwave",
     "method": "apt",
     "module": "forensics",
-    "url": "https://github.com/gtkwave/gtkwave"
+    "url": "https://github.com/gtkwave/gtkwave",
+    "description": "GTKWave is a GTK+ based wave viewer for Unix and Win32, supporting LXT, LXT2, VZT, FST, and GHW files, as well as standard Verilog VCD/EVCD files."
   },
   {
     "name": "vcdvcd",
     "method": "pipx",
     "module": "forensics",
-    "url": "https://github.com/cirosantilli/vcdvcd"
+    "url": "https://github.com/cirosantilli/vcdvcd",
+    "description": "vcdvcd is a Python library for parsing Verilog value change dumps (VCD) and a command-line tool for pretty-printing VCD files."
   },
   {
     "name": "Corsy",
     "method": "git",
     "module": "web",
-    "url": "https://github.com/s0md3v/Corsy"
+    "url": "https://github.com/s0md3v/Corsy",
+    "description": "Corsy is a lightweight CORS misconfiguration scanner for Python 3, targeting web applications to identify and report various CORS misconfigurations."
   },
   {
     "name": "NoSQLMap",
     "method": "git",
     "module": "web",
-    "url": "https://github.com/codingo/NoSQLMap"
+    "url": "https://github.com/codingo/NoSQLMap",
+    "description": "NoSQLMap is an open-source Python tool for auditing and automating injection attacks on NoSQL databases and web applications, primarily targeting MongoDB and CouchDB."
   },
   {
     "name": "Gopherus",
     "method": "git",
     "module": "web",
-    "url": "https://github.com/tarunkant/Gopherus"
+    "url": "https://github.com/tarunkant/Gopherus",
+    "description": "Gopherus generates Gopher payloads for exploiting SSRF and gaining RCE in various servers, supporting MySQL, PostgreSQL, FastCGI, Memcached, Redis, Zabbix, and SMTP."
   },
   {
     "name": "pwndb",
     "method": "git",
     "module": "recon",
-    "url": "https://github.com/davidtavarez/pwndb"
+    "url": "https://github.com/davidtavarez/pwndb",
+    "description": "pwndb is a Python tool for searching leaked credentials using the Onion service, targeting email addresses or domains."
   },
   {
     "name": "dnschef",
     "method": "git",
     "module": "networking",
-    "url": "https://github.com/iphelix/dnschef"
+    "url": "https://github.com/iphelix/dnschef",
+    "description": "DNSChef is a DNS proxy tool for penetration testers and malware analysts, intercepting and modifying DNS queries and responses."
   },
   {
     "name": "yersinia",
     "method": "git",
     "module": "networking",
-    "url": "https://github.com/tomac/yersinia"
+    "url": "https://github.com/tomac/yersinia",
+    "description": "Yersinia is a framework for layer 2 attacks, primarily used to perform Spanning Tree Protocol (STP) attacks such as sending configuration (conf) and topology change (tcn) BPDUs to disrupt network operations."
   },
   {
     "name": "cribdrag",
     "method": "git",
     "module": "crypto",
-    "url": "https://github.com/SpiderLabs/cribdrag"
+    "url": "https://github.com/SpiderLabs/cribdrag",
+    "description": "cribdrag is a script for performing crib dragging attacks against ciphertext encrypted using an XOR operation with a predictable key, supporting One-Time Pad with reused key and other stream ciphers."
   },
   {
     "name": "robin",
     "method": "git",
     "module": "recon",
-    "url": "https://github.com/apurvsinghgautam/robin"
+    "url": "https://github.com/apurvsinghgautam/robin",
+    "description": "AI-powered dark web OSINT tool using LLMs for refined queries and investigation summaries."
   },
   {
     "name": "stringcheese",
     "method": "git",
     "module": "recon",
-    "url": "https://github.com/MathisHammel/stringcheese"
+    "url": "https://github.com/MathisHammel/stringcheese",
+    "description": "StringCheese is a Python script for automatically extracting CTF flags from files using various encodings and transformations."
   },
   {
     "name": "bandit",
     "method": "pipx",
     "module": "blueteam",
-    "url": "https://pypi.org/project/bandit/"
+    "url": "https://pypi.org/project/bandit/",
+    "description": "Bandit is a security linter for Python code that scans files for common security issues by analyzing the Abstract Syntax Tree (AST). It is used to identify vulnerabilities in Python applications."
   },
   {
     "name": "brakeman",
     "method": "gem",
     "module": "web",
-    "url": "https://rubygems.org/gems/brakeman"
+    "url": "https://rubygems.org/gems/brakeman",
+    "description": "Brakeman is a static analysis tool for detecting security vulnerabilities in Ruby on Rails applications."
   },
   {
     "name": "garak",
     "method": "pipx",
     "module": "llm",
-    "url": "https://pypi.org/project/garak/"
+    "url": "https://pypi.org/project/garak/",
+    "description": "garak is an LLM vulnerability scanner that probes for weaknesses like hallucination, data leakage, and toxicity generation across various models including Hugging Face, OpenAI, and AWS."
   },
   {
     "name": "FuzzyAI",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/cyberark/FuzzyAI"
+    "url": "https://github.com/cyberark/FuzzyAI",
+    "description": "FuzzyAI is a tool for automated LLM fuzzing to identify and mitigate potential jailbreaks in LLM APIs."
   },
   {
     "name": "promptfoo",
     "method": "npm",
     "module": "llm",
-    "url": "https://github.com/promptfoo/promptfoo"
+    "url": "https://github.com/promptfoo/promptfoo",
+    "description": "promptfoo is a CLI and library for evaluating and red-teaming LLM-based apps, supporting automated evaluations, model comparisons, and CI/CD integration."
   },
   {
     "name": "pallms",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/mik0w/pallms"
+    "url": "https://github.com/mik0w/pallms",
+    "description": "PALLMs is a collection of attack payloads for large language models, primarily used for educational purposes to understand and mitigate vulnerabilities. It targets LLMs and includes prompt injection and unbounded consumption examples."
   },
   {
     "name": "shannon",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/KeygraphHQ/shannon"
+    "url": "https://github.com/KeygraphHQ/shannon",
+    "description": "Shannon is an AI-powered web application and API pentester that analyzes source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production. It is designed for use in cybersecurity and DevSecOps environments."
   },
   {
     "name": "cai-framework",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/aliasrobotics/cai"
+    "url": "https://github.com/aliasrobotics/cai",
+    "description": "CAI Framework: The archived open-source cybersecurity AI research project, now succeeded by Cybersecurity Superintelligence."
   },
   {
     "name": "pentagi",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/vxcontrol/pentagi"
+    "url": "https://github.com/vxcontrol/pentagi",
+    "description": "PentAGI is an autonomous AI system for performing complex penetration testing tasks."
   },
   {
     "name": "pentagi-docker",
     "method": "docker",
     "module": "llm",
-    "url": "https://github.com/vxcontrol/pentagi"
+    "url": "https://github.com/vxcontrol/pentagi",
+    "description": "PentAGI is an autonomous AI system for performing complex penetration testing tasks using Docker."
   },
   {
     "name": "lascar",
     "method": "pipx",
     "module": "crypto",
-    "url": "https://github.com/Ledger-Donjon/lascar"
+    "url": "https://github.com/Ledger-Donjon/lascar",
+    "description": "Lascar is an open-source Python library for side-channel analysis, providing tools for trace acquisition, signal synchronization, and custom attacks. It is designed for both experienced and novice users and is compatible with mainstream Python libraries."
   },
   {
     "name": "USB-HID-decoders",
     "method": "git",
     "module": "forensics",
-    "url": "https://github.com/Nissen96/USB-HID-decoders"
+    "url": "https://github.com/Nissen96/USB-HID-decoders",
+    "description": "USB-HID-decoders is a tool for extracting and decoding raw HID data from PCAP files, including keyboard, mouse, and tablet inputs. It supports PCAP extraction, keyboard and mouse decoding, and visualization of tablet pen strokes."
   },
   {
     "name": "ctf-usb-keyboard-parser",
     "method": "git",
     "module": "forensics",
-    "url": "https://github.com/TeamRocketIst/ctf-usb-keyboard-parser"
+    "url": "https://github.com/TeamRocketIst/ctf-usb-keyboard-parser",
+    "description": "A Python script for parsing USB keyboard data from PCAP files or Bluetooth snooping logs, converting raw byte sequences into readable keystrokes."
   },
   {
     "name": "ffmpeg",
     "method": "apt",
     "module": "forensics",
-    "url": "https://github.com/FFmpeg/FFmpeg"
+    "url": "https://github.com/FFmpeg/FFmpeg",
+    "description": "FFmpeg is a multimedia framework that can record, convert, and stream audio and video. It includes libraries and tools for decoding, encoding, filtering, and streaming. Primary use case is for multimedia processing and streaming. Target platforms include Linux, macOS, and Windows. Supports various codecs and protocols."
   },
   {
     "name": "zeek",
     "method": "docker",
     "module": "blueteam",
-    "url": "https://hub.docker.com/r/zeek/zeek"
+    "url": "https://hub.docker.com/r/zeek/zeek",
+    "description": "Zeek is a network forensic analysis tool for monitoring and analyzing network traffic, providing comprehensive visibility into network activity."
   },
   {
     "name": "hayabusa",
     "method": "binary",
     "module": "blueteam",
-    "url": "https://github.com/Yamato-Security/hayabusa"
+    "url": "https://github.com/Yamato-Security/hayabusa",
+    "description": "Hayabusa is a Rust-based threat hunting and fast forensics timeline generator for Windows event logs, supporting Sigma v2 correlation rules."
   },
   {
     "name": "zircolite",
     "method": "docker",
     "module": "blueteam",
-    "url": "https://hub.docker.com/r/wagga40/zircolite"
+    "url": "https://hub.docker.com/r/wagga40/zircolite",
+    "description": "Zircolite is a fast, standalone, and battle-tested SIGMA-based detection tool for EVTX or JSON logs, designed for real-time threat detection and analysis."
   },
   {
     "name": "plaso",
     "method": "pipx",
     "module": "forensics",
-    "url": "https://pypi.org/project/plaso/"
+    "url": "https://pypi.org/project/plaso/",
+    "description": "plaso is a Python library for processing and analyzing digital forensic artifacts, primarily used for log file analysis and incident response."
   },
   {
     "name": "memprocfs",
     "method": "binary",
     "module": "forensics",
-    "url": "https://github.com/ufrisk/MemProcFS"
+    "url": "https://github.com/ufrisk/MemProcFS",
+    "description": "MemProcFS allows viewing physical memory as files in a virtual file system, enabling easy memory analysis for live memory, memory dump files, and remote live memory incident response."
   },
   {
     "name": "stratus",
     "method": "go",
     "module": "cloud",
-    "url": "https://github.com/DataDog/stratus-red-team"
+    "url": "https://github.com/DataDog/stratus-red-team",
+    "description": "Stratus Red Team emulates offensive attack techniques in the cloud for security testing and detection."
   },
   {
     "name": "cloudgoat",
     "method": "pipx",
     "module": "cloud",
-    "url": "https://pypi.org/project/cloudgoat/"
+    "url": "https://pypi.org/project/cloudgoat/",
+    "description": "CloudGoat is a vulnerable AWS environment generator for cybersecurity professionals to practice penetration testing and cloud security skills."
   },
   {
     "name": "pyrit",
     "method": "pipx",
     "module": "llm",
-    "url": "https://pypi.org/project/pyrit/"
+    "url": "https://pypi.org/project/pyrit/",
+    "description": "PyRIT is an open-source toolkit for assessing the security and safety weaknesses in generative AI systems through automated scans and human-led testing. It supports various AI models and protocols."
   },
   {
     "name": "cisco-ai-mcp-scanner",
     "method": "pipx",
     "module": "llm",
-    "url": "https://pypi.org/project/cisco-ai-mcp-scanner/"
+    "url": "https://pypi.org/project/cisco-ai-mcp-scanner/",
+    "description": "A Python tool for scanning MCP servers and tools for potential security findings using YARA rules, LLM-based analysis, and Cisco AI Defense inspect API."
   },
   {
     "name": "cisco-ai-skill-scanner",
     "method": "pipx",
     "module": "llm",
-    "url": "https://pypi.org/project/cisco-ai-skill-scanner/"
+    "url": "https://pypi.org/project/cisco-ai-skill-scanner/",
+    "description": "cisco-ai-skill-scanner is a Python tool for scanning Cisco AI skills, primarily used for security assessments on Cisco devices."
   },
   {
     "name": "sublist3r",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/sublist3r/"
+    "url": "https://pypi.org/project/sublist3r/",
+    "description": "Sublist3r is a Python tool for gathering subdomains of a domain using various online sources."
   },
   {
     "name": "waymore",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/waymore/"
+    "url": "https://pypi.org/project/waymore/",
+    "description": "waymore is a Python library for automating web scraping and data extraction, primarily used for cybersecurity threat intelligence gathering."
   },
   {
     "name": "dnsgen",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/dnsgen/"
+    "url": "https://pypi.org/project/dnsgen/",
+    "description": "dnsgen is a Python tool for generating DNS queries for testing and penetration testing."
   },
   {
     "name": "knock-subdomains",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/knock-subdomains/"
+    "url": "https://pypi.org/project/knock-subdomains/",
+    "description": "knock-subdomains is a Python tool for identifying subdomains of a domain by sending DNS queries."
   },
   {
     "name": "assetfinder",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/tomnomnom/assetfinder"
+    "url": "https://github.com/tomnomnom/assetfinder",
+    "description": "assetfinder is a command-line tool for finding domains and subdomains related to a given domain using various online sources."
   },
   {
     "name": "gospider",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/jaeles-project/gospider"
+    "url": "https://github.com/jaeles-project/gospider",
+    "description": "Gospider is a fast web spider written in Go for reconnaissance and bug bounty hunting, supporting features like sitemap parsing, robots.txt handling, and parallel crawling."
   },
   {
     "name": "subjs",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/lc/subjs"
+    "url": "https://github.com/lc/subjs",
+    "description": "subjs fetches JavaScript files from a list of URLs or subdomains, aiding in the discovery of undocumented endpoints and secrets."
   },
   {
     "name": "LinkFinder",
     "method": "git",
     "module": "recon",
-    "url": "https://github.com/GerbenJavado/LinkFinder"
+    "url": "https://github.com/GerbenJavado/LinkFinder",
+    "description": "LinkFinder is a Python script that discovers endpoints and their parameters in JavaScript files, useful for penetration testers and bug hunters."
   },
   {
     "name": "SecretFinder",
     "method": "git",
     "module": "recon",
-    "url": "https://github.com/m4ll0k/SecretFinder"
+    "url": "https://github.com/m4ll0k/SecretFinder",
+    "description": "SecretFinder is a Python script for extracting sensitive data like API keys, access tokens, JWTs, and more from JavaScript files. It supports URLs, files, and folders, and outputs results in HTML or plaintext."
   },
   {
     "name": "FavFreak",
     "method": "git",
     "module": "recon",
-    "url": "https://github.com/devanshbatham/FavFreak"
+    "url": "https://github.com/devanshbatham/FavFreak",
+    "description": "FavFreak is a Python tool for reconnaissance using favicon hashes, sorting domains/subdomains/IPs based on their hashes, and matching them against a fingerprint dictionary for bug bounty hunting and OSINT."
   },
   {
     "name": "Photon",
     "method": "git",
     "module": "recon",
-    "url": "https://github.com/s0md3v/Photon"
+    "url": "https://github.com/s0md3v/Photon",
+    "description": "Photon is a fast OSINT crawler for data extraction, flexible configuration, and smart thread management."
   },
   {
     "name": "dirsearch",
     "method": "pipx",
     "module": "web",
-    "url": "https://pypi.org/project/dirsearch/"
+    "url": "https://pypi.org/project/dirsearch/",
+    "description": "dirsearch is a Python script for web directories and files discovery."
   },
   {
     "name": "clairvoyance",
     "method": "pipx",
     "module": "web",
-    "url": "https://pypi.org/project/clairvoyance/"
+    "url": "https://pypi.org/project/clairvoyance/",
+    "description": "Clairvoyance 2.5.5 is a Python tool to obtain GraphQL API schemas even if introspection is disabled, producing JSON format for use with other tools like GraphQL Voyager or InQL."
   },
   {
     "name": "nomore403",
     "method": "go",
     "module": "web",
-    "url": "https://github.com/devploit/nomore403"
+    "url": "https://github.com/devploit/nomore403",
+    "description": "nomore403 is a command-line tool for testing HTTP access-control bypasses and parser inconsistencies around 401, 403, and related responses. It automates request mutations, captures baseline responses, and highlights likely bypasses with replayable evidence."
   },
   {
     "name": "x8",
     "method": "cargo",
     "module": "web",
-    "url": "https://crates.io/crates/x8"
+    "url": "https://crates.io/crates/x8",
+    "description": "x8 is a hidden parameters discovery suite for web security reconnaissance and content discovery, compatible with the Rust programming language and available via Cargo."
   },
   {
     "name": "ghauri",
     "method": "git",
     "module": "web",
-    "url": "https://github.com/r0oth3x49/ghauri"
+    "url": "https://github.com/r0oth3x49/ghauri",
+    "description": "An advanced cross-platform tool for automating SQL injection detection and exploitation targeting MySQL, MSSQL, Postgres, Oracle, and Access."
   },
   {
     "name": "tplmap",
     "method": "git",
     "module": "web",
-    "url": "https://github.com/epinna/tplmap"
+    "url": "https://github.com/epinna/tplmap",
+    "description": "Tplmap is a tool for detecting and exploiting Server-Side Template Injection (SSTI) vulnerabilities in web applications, supporting multiple template engines and providing techniques for remote code execution, file manipulation, and more."
   },
   {
     "name": "SSRFmap",
     "method": "git",
     "module": "web",
-    "url": "https://github.com/swisskyrepo/SSRFmap"
+    "url": "https://github.com/swisskyrepo/SSRFmap",
+    "description": "SSRFmap is an automatic SSRF fuzzer and exploitation tool that takes a Burp request file and parameter to fuzz, targeting server-side request forgery vulnerabilities."
   },
   {
     "name": "graphw00f",
     "method": "git",
     "module": "web",
-    "url": "https://github.com/dolevf/graphw00f"
+    "url": "https://github.com/dolevf/graphw00f",
+    "description": "graphw00f is a GraphQL Server Engine Fingerprinting utility for security professionals to identify the technology behind a given GraphQL endpoint."
   },
   {
     "name": "Oralyzer",
     "method": "git",
     "module": "web",
-    "url": "https://github.com/r0075h3ll/Oralyzer"
+    "url": "https://github.com/r0075h3ll/Oralyzer",
+    "description": "Oralyzer is a Python tool for detecting open redirects, CRLF injection, and DOM XSS vulnerabilities on websites."
   },
   {
     "name": "ropr",
     "method": "cargo",
     "module": "pwn",
-    "url": "https://crates.io/crates/ropr"
+    "url": "https://crates.io/crates/ropr",
+    "description": "ropr is a fast multithreaded ROP gadget finder, an alternative to ropper and ropgadget."
   },
   {
     "name": "preeny",
     "method": "git",
     "module": "pwn",
-    "url": "https://github.com/zardus/preeny"
+    "url": "https://github.com/zardus/preeny",
+    "description": "Preeny is a set of preload libraries for Linux that disable functions like fork(), rand(), and alarm(), and can convert server applications to console applications, patch binaries, and more."
   },
   {
     "name": "ropium",
     "method": "git",
     "module": "pwn",
-    "url": "https://github.com/Boyan-MILANOV/ropium"
+    "url": "https://github.com/Boyan-MILANOV/ropium",
+    "description": "ROPium is a tool for building ROP exploits by automatically extracting and chaining gadgets from binaries, supporting X86 and X64 architectures."
   },
   {
     "name": "cutter",
     "method": "binary",
     "module": "reversing",
-    "url": "https://github.com/rizinorg/cutter"
+    "url": "https://github.com/rizinorg/cutter",
+    "description": "Cutter is a free and open-source reverse engineering platform powered by rizin, designed for advanced analysis and customization."
   },
   {
     "name": "detect-it-easy",
     "method": "binary",
     "module": "reversing",
-    "url": "https://github.com/horsicq/DIE-engine"
+    "url": "https://github.com/horsicq/DIE-engine",
+    "description": "detect-it-easy (DIE) is a free, open-source binary analysis tool for detecting malicious software, primarily used for reverse engineering and malware analysis. It supports ELF, PE, and other binary formats, and includes features like entropy analysis, signature matching, and unpacking capabilities. Target platform: Windows, Linux, macOS. Primary use case: Malware analysis, reverse engineering, and security research."
   },
   {
     "name": "featherduster",
     "method": "git",
     "module": "crypto",
-    "url": "https://github.com/nccgroup/featherduster"
+    "url": "https://github.com/nccgroup/featherduster",
+    "description": "FeatherDuster is a Python-based cryptanalysis tool for breaking weak cryptographic systems, designed to simplify the process of identifying and exploiting vulnerabilities in encrypted data."
   },
   {
     "name": "hexyl",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=hexyl"
+    "url": "https://packages.debian.org/search?keywords=hexyl",
+    "description": "Command-line hex viewer with colored output for analyzing binary data."
   },
   {
     "name": "ewf-tools",
     "method": "apt",
     "module": "forensics",
-    "url": "https://packages.debian.org/search?keywords=ewf-tools"
+    "url": "https://packages.debian.org/search?keywords=ewf-tools",
+    "description": "EWF-tools is a collection of utilities for handling EWF (Expert Witness Format) files, commonly used in digital forensics and incident response."
   },
   {
     "name": "dissect.target",
     "method": "pipx",
     "module": "forensics",
-    "url": "https://pypi.org/project/dissect.target/"
+    "url": "https://pypi.org/project/dissect.target/",
+    "description": "dissect.target is a Python library for forensic analysis of disk images and memory dumps, supporting Windows, Linux, and macOS."
   },
   {
     "name": "python-evtx",
     "method": "pipx",
     "module": "forensics",
-    "url": "https://pypi.org/project/python-evtx/"
+    "url": "https://pypi.org/project/python-evtx/",
+    "description": "python-evtx is a pure Python parser for Windows event log files (.evtx), enabling programmatic access to event records on various platforms."
   },
   {
     "name": "imhex",
     "method": "binary",
     "module": "forensics",
-    "url": "https://github.com/WerWolv/ImHex"
+    "url": "https://github.com/WerWolv/ImHex",
+    "description": "A multi-platform hex editor for reverse engineering, programming, and cybersecurity tasks."
   },
   {
     "name": "manspider",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/manspider/"
+    "url": "https://pypi.org/project/manspider/",
+    "description": "manspider is a Python library for web scraping and data extraction, primarily used for cybersecurity research and analysis."
   },
   {
     "name": "windapsearch",
     "method": "go",
     "module": "enterprise",
-    "url": "https://github.com/ropnop/go-windapsearch"
+    "url": "https://github.com/ropnop/go-windapsearch",
+    "description": "windapsearch is a tool for enumerating users, groups, and computers in a Windows domain through LDAP queries. It supports anonymous and authenticated binds, and can output results in JSON format. Target platform: Windows, Linux, Mac. Protocol: LDAP."
   },
   {
     "name": "ldapnomnom",
     "method": "go",
     "module": "enterprise",
-    "url": "https://github.com/lkarlslund/ldapnomnom"
+    "url": "https://github.com/lkarlslund/ldapnomnom",
+    "description": "ldapnomnom is a tool for anonymously bruteforcing Active Directory usernames using cLDAP requests on Domain Controllers."
   },
   {
     "name": "targetedKerberoast",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/ShutdownRepo/targetedKerberoast"
+    "url": "https://github.com/ShutdownRepo/targetedKerberoast",
+    "description": "targetedKerberoast is a Python script for performing targeted Kerberoasting attacks, attempting to set and abuse SPNs on user accounts to extract Kerberos hashes."
   },
   {
     "name": "btlejack",
     "method": "pipx",
     "module": "wireless",
-    "url": "https://pypi.org/project/btlejack/"
+    "url": "https://pypi.org/project/btlejack/",
+    "description": "btlejack is a Bluetooth Low Energy (BLE) sniffer and analyzer for Linux."
   },
   {
     "name": "angryoxide",
     "method": "binary",
     "module": "wireless",
-    "url": "https://github.com/Ragnt/AngryOxide"
+    "url": "https://github.com/Ragnt/AngryOxide",
+    "description": "AngryOxide is a Rust-based 802.11 attack tool for capturing EAPOL messages and conducting automated attacks, targeting specific MAC addresses or SSIDs, with features like auto-hunt, whitelist protection, and geo-fencing."
   },
   {
     "name": "brutespray",
     "method": "go",
     "module": "cracking",
-    "url": "https://github.com/x90skysn3k/brutespray"
+    "url": "https://github.com/x90skysn3k/brutespray",
+    "description": "Brutespray is a fast, multi-protocol credential brute-forcer that parses Nmap, Nessus, and Nexpose output to automatically test default and custom credentials across 40+ protocols in parallel."
   },
   {
     "name": "legba",
     "method": "cargo",
     "module": "cracking",
-    "url": "https://crates.io/crates/legba"
+    "url": "https://crates.io/crates/legba",
+    "description": "legba is a fast multi-protocol credential bruteforcer/sprayer/enumerator for authentication."
   },
   {
     "name": "cupp",
     "method": "git",
     "module": "cracking",
-    "url": "https://github.com/Mebus/cupp"
+    "url": "https://github.com/Mebus/cupp",
+    "description": "CUPP (Common User Passwords Profiler) is a Python tool for generating custom wordlists based on user information, aiding in password strength analysis and dictionary attacks."
   },
   {
     "name": "changeme",
     "method": "git",
     "module": "cracking",
-    "url": "https://github.com/ztgrace/changeme"
+    "url": "https://github.com/ztgrace/changeme",
+    "description": "changeme is a default credential scanner supporting HTTP/HTTPS, MSSQL, MySQL, PostgreSQL, SSH, SNMP, MongoDB, and FTP protocols. It uses YAML files for credential storage and can be run on Linux with Docker support for other platforms."
   },
   {
     "name": "crowbar",
     "method": "git",
     "module": "cracking",
-    "url": "https://github.com/galkan/crowbar"
+    "url": "https://github.com/galkan/crowbar",
+    "description": "Crowbar is a brute force tool for penetration testing, supporting protocols like OpenVPN, RDP, SSH, and VNC."
   },
   {
     "name": "kwprocessor",
     "method": "git",
     "module": "cracking",
-    "url": "https://github.com/hashcat/kwprocessor"
+    "url": "https://github.com/hashcat/kwprocessor",
+    "description": "kwprocessor is an advanced keyboard-walk generator with configurable basechars, keymap, and routes, designed to mimic human-generated passwords for efficient password cracking."
   },
   {
     "name": "outguess",
     "method": "apt",
     "module": "stego",
-    "url": "https://packages.debian.org/search?keywords=outguess"
+    "url": "https://packages.debian.org/search?keywords=outguess",
+    "description": "Outguess is a universal steganographic tool for hiding data within files."
   },
   {
     "name": "jsteg",
     "method": "go",
     "module": "stego",
-    "url": "https://github.com/lukechampine/jsteg"
+    "url": "https://github.com/lukechampine/jsteg",
+    "description": "jsteg is a Go package for hiding data inside JPEG files using steganography by manipulating the least-significant bits of the image. It supports hiding up to 10-14 bytes of data per byte of JPEG file size and includes a command-line tool for easy use."
   },
   {
     "name": "cartography",
