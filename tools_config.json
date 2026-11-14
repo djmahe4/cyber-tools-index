@@ -3083,601 +3083,701 @@
     "name": "libnfc-crypto1-crack",
     "method": "git",
     "module": "wireless",
-    "url": "https://github.com/droidnewbie2/acr122uNFC"
+    "url": "https://github.com/droidnewbie2/acr122uNFC",
+    "description": "libnfc-crypto1-crack is a tool for performing hardnested attacks on Mifare Classic Plus tags using LibNFC USB readers."
   },
   {
     "name": "john",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=john"
+    "url": "https://packages.debian.org/search?keywords=john",
+    "description": "John the Ripper is a fast password cracker designed to recover passwords from various encrypted files."
   },
   {
     "name": "hashcat",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=hashcat"
+    "url": "https://packages.debian.org/search?keywords=hashcat",
+    "description": "Hashcat is a world's fastest and most advanced password recovery utility for various hash types, supporting CPU, GPU, and FPGA."
   },
   {
     "name": "hydra",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=hydra"
+    "url": "https://packages.debian.org/search?keywords=hydra",
+    "description": "Hydra is a fast network logon cracker designed to brute-force passwords on various protocols and services."
   },
   {
     "name": "medusa",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=medusa"
+    "url": "https://packages.debian.org/search?keywords=medusa",
+    "description": "Medusa is a fast, parallel, modular login brute-forcer for network services, targeting various protocols and platforms."
   },
   {
     "name": "crunch",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=crunch"
+    "url": "https://packages.debian.org/search?keywords=crunch",
+    "description": "Crunch is a utility for generating custom wordlists, primarily used in cybersecurity for password cracking and security testing."
   },
   {
     "name": "ophcrack",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=ophcrack"
+    "url": "https://packages.debian.org/search?keywords=ophcrack",
+    "description": "Ophcrack is a Microsoft Windows password cracker using rainbow tables, available as a graphical (ophcrack) and command-line (ophcrack-cli) version."
   },
   {
     "name": "chntpw",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=chntpw"
+    "url": "https://packages.debian.org/search?keywords=chntpw",
+    "description": "chntpw is a utility for recovering NT SAM passwords on Windows systems."
   },
   {
     "name": "fcrackzip",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=fcrackzip"
+    "url": "https://packages.debian.org/search?keywords=fcrackzip",
+    "description": "fcrackzip is a password cracker for zip archives."
   },
   {
     "name": "pdfcrack",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=pdfcrack"
+    "url": "https://packages.debian.org/search?keywords=pdfcrack",
+    "description": "pdfcrack is a command-line tool for cracking passwords on PDF files."
   },
   {
     "name": "cewl",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=cewl"
+    "url": "https://packages.debian.org/search?keywords=cewl",
+    "description": "cewl is a custom word list generator for ethical hacking and security testing, primarily used for creating word lists from websites for password cracking and other security assessments."
   },
   {
     "name": "hashid",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=hashid"
+    "url": "https://packages.debian.org/search?keywords=hashid",
+    "description": "hashid identifies different types of hashes used to encrypt data, useful for cybersecurity analysis and forensic investigations."
   },
   {
     "name": "bruteforce-luks",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=bruteforce-luks"
+    "url": "https://packages.debian.org/search?keywords=bruteforce-luks",
+    "description": "bruteforce-luks is a command-line tool for attempting to decrypt LUKS encrypted volumes by brute force."
   },
   {
     "name": "maskprocessor",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=maskprocessor"
+    "url": "https://packages.debian.org/search?keywords=maskprocessor",
+    "description": "maskprocessor is a high-performance word generator with a per-position configurable charset, suitable for generating potential passwords or keys."
   },
   {
     "name": "princeprocessor",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=princeprocessor"
+    "url": "https://packages.debian.org/search?keywords=princeprocessor",
+    "description": "Standalone password candidate generator using the PRINCE algorithm for generating strong passwords."
   },
   {
     "name": "statsprocessor",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=statsprocessor"
+    "url": "https://packages.debian.org/search?keywords=statsprocessor",
+    "description": "statsprocessor is a word generator based on per-position Markov chains, suitable for various Linux distributions and architectures."
   },
   {
     "name": "sucrack",
     "method": "apt",
     "module": "cracking",
-    "url": "https://packages.debian.org/search?keywords=sucrack"
+    "url": "https://packages.debian.org/search?keywords=sucrack",
+    "description": "sucrack is a multithreaded su bruteforcer for Linux systems."
   },
   {
     "name": "search-that-hash",
     "method": "pipx",
     "module": "cracking",
-    "url": "https://pypi.org/project/search-that-hash/"
+    "url": "https://pypi.org/project/search-that-hash/",
+    "description": "search-that-hash is a Python tool for searching hash values against various online databases to identify the original file or information. It is useful for cybersecurity professionals and forensic analysts to quickly determine the source of suspicious files. Target platform: Python."
   },
   {
     "name": "name-that-hash",
     "method": "pipx",
     "module": "cracking",
-    "url": "https://pypi.org/project/name-that-hash/"
+    "url": "https://pypi.org/project/name-that-hash/",
+    "description": "name-that-hash identifies the type of cryptographic hash algorithm used for a given hash value, supporting multiple hash types and Python 3.6+."
   },
   {
     "name": "trevorspray",
     "method": "pipx",
     "module": "cracking",
-    "url": "https://pypi.org/project/trevorspray/"
+    "url": "https://pypi.org/project/trevorspray/",
+    "description": "trevorspray is a Python-based tool for conducting network reconnaissance and vulnerability scanning."
   },
   {
     "name": "patator",
     "method": "special",
     "module": "cracking",
-    "url": "https://pypi.org/project/patator/"
+    "url": "https://pypi.org/project/patator/",
+    "description": "Patator is a multi-threaded Python brute-forcer supporting various protocols including FTP, SSH, SMTP, HTTP, and more."
   },
   {
     "name": "DefaultCreds-cheat-sheet",
     "method": "git",
     "module": "cracking",
-    "url": "https://github.com/ihebski/DefaultCreds-cheat-sheet"
+    "url": "https://github.com/ihebski/DefaultCreds-cheat-sheet",
+    "description": "DefaultCreds-cheat-sheet is a tool for cybersecurity professionals to identify devices with default passwords, assisting in penetration testing and blue team operations."
   },
   {
     "name": "pipal",
     "method": "git",
     "module": "cracking",
-    "url": "https://github.com/digininja/pipal"
+    "url": "https://github.com/digininja/pipal",
+    "description": "Pipal is a password analysis tool for cracked password dumps, providing statistics and information to help interpret results. It requires Ruby 1.9.x and works on any vanilla Ruby install. Usage includes options for showing top results, outputting to a file, and comparing against external word lists."
   },
   {
     "name": "Hob0Rules",
     "method": "git",
     "module": "cracking",
-    "url": "https://github.com/praetorian-inc/Hob0Rules"
+    "url": "https://github.com/praetorian-inc/Hob0Rules",
+    "description": "Hob0Rules provides password cracking rules for Hashcat based on statistics and industry patterns, including 'hob064' for quick cracking and 'd3adhob0' for extensive use."
   },
   {
     "name": "Pantagrule",
     "method": "git",
     "module": "cracking",
-    "url": "https://github.com/rarecoil/pantagrule"
+    "url": "https://github.com/rarecoil/pantagrule",
+    "description": "Pantagrule is a series of hashcat rules generated from real-world compromised passwords, optimized for better performance and transparency."
   },
   {
     "name": "OneRuleToRuleThemStill",
     "method": "git",
     "module": "cracking",
-    "url": "https://github.com/stealthsploit/OneRuleToRuleThemStill"
+    "url": "https://github.com/stealthsploit/OneRuleToRuleThemStill",
+    "description": "OneRuleToRuleThemStill is an optimized hashcat rule set with 6.9% fewer rules while maintaining performance, targeting Lifeboat and LastFM data breaches."
   },
   {
     "name": "username-anarchy",
     "method": "git",
     "module": "cracking",
-    "url": "https://github.com/urbanadventurer/username-anarchy"
+    "url": "https://github.com/urbanadventurer/username-anarchy",
+    "description": "Username Anarchy is a command-line tool for generating usernames during penetration testing, supporting various formats and sources like social networks and country databases."
   },
   {
     "name": "gpp-decrypt",
     "method": "git",
     "module": "cracking",
-    "url": "https://github.com/t0thkr1s/gpp-decrypt"
+    "url": "https://github.com/t0thkr1s/gpp-decrypt",
+    "description": "gpp-decrypt is a Python tool to parse and decrypt Group Policy Preferences (GPP) XML files, extracting usernames and passwords."
   },
   {
     "name": "duplicut",
     "method": "source",
     "module": "cracking",
-    "url": "https://github.com/nil0x42/duplicut"
+    "url": "https://github.com/nil0x42/duplicut",
+    "description": "Duplicut removes duplicates from massive wordlists without changing their order, keeping the first occurrence of each word. It's optimized in C and can handle files larger than RAM by using chunk-based scans or disk partitions."
   },
   {
     "name": "steghide",
     "method": "apt",
     "module": "stego",
-    "url": "https://packages.debian.org/search?keywords=steghide"
+    "url": "https://packages.debian.org/search?keywords=steghide",
+    "description": "Steghide is a steganography tool for hiding files within image and audio files."
   },
   {
     "name": "stegsnow",
     "method": "apt",
     "module": "stego",
-    "url": "https://packages.debian.org/search?keywords=stegsnow"
+    "url": "https://packages.debian.org/search?keywords=stegsnow",
+    "description": "stegsnow is a steganography tool for hiding data in ASCII files, compatible with Debian-based systems."
   },
   {
     "name": "pngcheck",
     "method": "apt",
     "module": "stego",
-    "url": "https://packages.debian.org/search?keywords=pngcheck"
+    "url": "https://packages.debian.org/search?keywords=pngcheck",
+    "description": "pngcheck is a command-line tool to print information and verify the integrity of PNG, JNG, and MNG files."
   },
   {
     "name": "sonic-visualiser",
     "method": "apt",
     "module": "stego",
-    "url": "https://packages.debian.org/search?keywords=sonic-visualiser"
+    "url": "https://packages.debian.org/search?keywords=sonic-visualiser",
+    "description": "Sonic Visualiser is a tool for viewing and analyzing the contents of music audio files."
   },
   {
     "name": "exiv2",
     "method": "apt",
     "module": "stego",
-    "url": "https://packages.debian.org/search?keywords=exiv2"
+    "url": "https://packages.debian.org/search?keywords=exiv2",
+    "description": "exiv2 is a C++ library and command-line tool for manipulating image metadata, supporting EXIF, IPTC, and XMP formats."
   },
   {
     "name": "pngtools",
     "method": "apt",
     "module": "stego",
-    "url": "https://packages.debian.org/search?keywords=pngtools"
+    "url": "https://packages.debian.org/search?keywords=pngtools",
+    "description": "pngtools is a suite of command-line tools for manipulating PNG images, suitable for Linux and Unix-like systems."
   },
   {
     "name": "stegoveritas",
     "method": "pipx",
     "module": "stego",
-    "url": "https://pypi.org/project/stegoveritas/"
+    "url": "https://pypi.org/project/stegoveritas/",
+    "description": "Stegoveritas is a Python library for detecting steganography in images, primarily used for cybersecurity analysis."
   },
   {
     "name": "zsteg",
     "method": "gem",
     "module": "stego",
-    "url": "https://rubygems.org/gems/zsteg"
+    "url": "https://rubygems.org/gems/zsteg",
+    "description": "zsteg detects hidden data in PNG and BMP files."
   },
   {
     "name": "stegsolve",
     "method": "git",
     "module": "stego",
-    "url": "https://github.com/Giotino/stegsolve"
+    "url": "https://github.com/Giotino/stegsolve",
+    "description": "StegSolve is a Java-based steganography tool for analyzing and manipulating images to hide data, supporting zoom, drag-and-drop, and channel plane extraction."
   },
   {
     "name": "openstego",
     "method": "git",
     "module": "stego",
-    "url": "https://github.com/syvaidya/openstego"
+    "url": "https://github.com/syvaidya/openstego",
+    "description": "OpenStego is a steganography tool for hiding data and watermarks within image files, supporting both GUI and command line interfaces."
   },
   {
     "name": "stegextract",
     "method": "git",
     "module": "stego",
-    "url": "https://github.com/evyatarmeged/stegextract"
+    "url": "https://github.com/evyatarmeged/stegextract",
+    "description": "stegextract is a command-line tool for detecting and extracting hidden files and text from images using steganography techniques. It is useful for penetration testing and CTF challenges."
   },
   {
     "name": "stegosaurus",
     "method": "git",
     "module": "stego",
-    "url": "https://github.com/AngelKitty/stegosaurus"
+    "url": "https://github.com/AngelKitty/stegosaurus",
+    "description": "Stegosaurus is a Python steganography tool that embeds payloads within Python bytecode (pyc or pyo) files without altering runtime behavior or file size."
   },
   {
     "name": "stegseek",
     "method": "binary",
     "module": "stego",
-    "url": "https://github.com/RickdeJager/stegseek"
+    "url": "https://github.com/RickdeJager/stegseek",
+    "description": "Stegseek is a fast steghide cracker for extracting hidden data from files using wordlist brute-force."
   },
   {
     "name": "kube-hunter",
     "method": "pipx",
     "module": "cloud",
-    "url": "https://pypi.org/project/kube-hunter/"
+    "url": "https://pypi.org/project/kube-hunter/",
+    "description": "kube-hunter is a Kubernetes security scanner that detects weaknesses in Kubernetes clusters by simulating an attacker's perspective. It can be run on any machine and supports remote, interface, and network scanning. Target platform: Kubernetes."
   },
   {
     "name": "pacu",
     "method": "pipx",
     "module": "cloud",
-    "url": "https://pypi.org/project/pacu/"
+    "url": "https://pypi.org/project/pacu/",
+    "description": "pacu is an AWS exploitation framework for testing the security of Amazon Web Services environments, compatible with Python 3.9 and later."
   },
   {
     "name": "cloudsplaining",
     "method": "pipx",
     "module": "cloud",
-    "url": "https://pypi.org/project/cloudsplaining/"
+    "url": "https://pypi.org/project/cloudsplaining/",
+    "description": "cloudsplaining analyzes AWS IAM policies for potential misconfigurations and risks."
   },
   {
     "name": "prowler",
     "method": "pipx",
     "module": "cloud",
-    "url": "https://pypi.org/project/prowler/"
+    "url": "https://pypi.org/project/prowler/",
+    "description": "Prowler is an open-source security tool for AWS, GCP, and Azure, performing security best practices assessments, audits, and compliance checks based on various frameworks like CIS, NIST, PCI-DSS, and GDPR."
   },
   {
     "name": "scoutsuite",
     "method": "pipx",
     "module": "cloud",
-    "url": "https://pypi.org/project/scoutsuite/"
+    "url": "https://pypi.org/project/scoutsuite/",
+    "description": "Scoutsuite is an open-source security assessment tool for AWS environments, identifying misconfigurations and vulnerabilities."
   },
   {
     "name": "s3scanner",
     "method": "go",
     "module": "cloud",
-    "url": "https://github.com/sa7mon/S3Scanner"
+    "url": "https://github.com/sa7mon/S3Scanner",
+    "description": "s3scanner is a multi-threaded tool to find open S3 buckets across various cloud providers, including AWS, DigitalOcean, DreamHost, GCP, Linode, Scaleway, and custom, by scanning bucket permissions and saving results to a Postgres database or RabbitMQ."
   },
   {
     "name": "roadrecon",
     "method": "pipx",
     "module": "cloud",
-    "url": "https://pypi.org/project/roadrecon/"
+    "url": "https://pypi.org/project/roadrecon/",
+    "description": "roadrecon 2.0.0 is an Entra ID (Azure AD) reconnaissance tool for red and blue teams, compatible with Python 3.10-3.14."
   },
   {
     "name": "cloudfox",
     "method": "go",
     "module": "cloud",
-    "url": "https://github.com/BishopFox/cloudfox"
+    "url": "https://github.com/BishopFox/cloudfox",
+    "description": "CloudFox is an open-source command-line tool for automating situational awareness in cloud environments, helping penetration testers identify exploitable attack paths in AWS infrastructure."
   },
   {
     "name": "cloudlist",
     "method": "go",
     "module": "cloud",
-    "url": "https://github.com/projectdiscovery/cloudlist"
+    "url": "https://github.com/projectdiscovery/cloudlist",
+    "description": "Cloudlist is a multi-cloud tool for listing assets from various cloud providers, supporting keyless authentication and multiple output formats."
   },
   {
     "name": "CloudBrute",
     "method": "git",
     "module": "cloud",
-    "url": "https://github.com/0xsha/CloudBrute"
+    "url": "https://github.com/0xsha/CloudBrute",
+    "description": "CloudBrute is a tool for black-box enumeration of cloud infrastructure, including storage and apps on major providers like Amazon, Google, Microsoft, DigitalOcean, Alibaba, Vultr, and Linode. It supports concurrent scanning, modular configuration, and proxy support for cross-platform use."
   },
   {
     "name": "enumerate-iam",
     "method": "git",
     "module": "cloud",
-    "url": "https://github.com/andresriancho/enumerate-iam"
+    "url": "https://github.com/andresriancho/enumerate-iam",
+    "description": "enumerate-iam is a Python script that enumerates AWS IAM permissions using non-destructive API calls, making it useful for security assessments and policy analysis."
   },
   {
     "name": "GCPBucketBrute",
     "method": "git",
     "module": "cloud",
-    "url": "https://github.com/RhinoSecurityLabs/GCPBucketBrute"
+    "url": "https://github.com/RhinoSecurityLabs/GCPBucketBrute",
+    "description": "GCPBucketBrute is a script to enumerate Google Storage buckets, determine access permissions, and check for privilege escalation using GCP user/service account credentials or unauthenticated methods. It supports Linux/OS X and Python3."
   },
   {
     "name": "cloud_enum",
     "method": "git",
     "module": "cloud",
-    "url": "https://github.com/initstring/cloud_enum"
+    "url": "https://github.com/initstring/cloud_enum",
+    "description": "cloud_enum is a multi-cloud OSINT tool for enumerating public resources in AWS, Azure, and Google Cloud."
   },
   {
     "name": "deepce",
     "method": "git",
     "module": "containers",
-    "url": "https://github.com/stealthcopter/deepce"
+    "url": "https://github.com/stealthcopter/deepce",
+    "description": "deepce is a pure sh script for Docker enumeration, privilege escalation, and container escape, compatible with most containers."
   },
   {
     "name": "docker-bench-security",
     "method": "git",
     "module": "containers",
-    "url": "https://github.com/docker/docker-bench-security"
+    "url": "https://github.com/docker/docker-bench-security",
+    "description": "docker-bench-security is a script that automates checks for Docker container security best practices based on the CIS Docker Benchmark."
   },
   {
     "name": "peirates",
     "method": "git",
     "module": "containers",
-    "url": "https://github.com/inguardians/peirates"
+    "url": "https://github.com/inguardians/peirates",
+    "description": "Peirates is a Kubernetes penetration testing tool that automates privilege escalation and token theft within a cluster."
   },
   {
     "name": "grype",
     "method": "binary",
     "module": "containers",
-    "url": "https://github.com/anchore/grype"
+    "url": "https://github.com/anchore/grype",
+    "description": "Grype is a vulnerability scanner for container images and filesystems, supporting major OS and language-specific packages, and providing threat prioritization with EPSS, KEV, and risk scoring."
   },
   {
     "name": "kubeaudit",
     "method": "binary",
     "module": "containers",
-    "url": "https://github.com/Shopify/kubeaudit"
+    "url": "https://github.com/Shopify/kubeaudit",
+    "description": "kubeaudit is a command line tool and Go package to audit Kubernetes clusters for security concerns such as running as non-root, using a read-only root filesystem, and dropping capabilities."
   },
   {
     "name": "cdk",
     "method": "binary",
     "module": "containers",
-    "url": "https://github.com/cdk-team/CDK"
+    "url": "https://github.com/cdk-team/CDK",
+    "description": "CDK is an open-source container penetration toolkit for evaluating and exploiting vulnerabilities in Kubernetes, Docker, and Containerd environments, without OS dependencies. It provides useful net-tools and PoCs/EXPs to escape containers and gain cluster control."
   },
   {
     "name": "suricata",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=suricata"
+    "url": "https://packages.debian.org/search?keywords=suricata",
+    "description": "Suricata is a high-performance open-source Intrusion Detection System (IDS) and Network Security Monitoring (NSM) tool designed to detect malicious activity in network traffic."
   },
   {
     "name": "fail2ban",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=fail2ban"
+    "url": "https://packages.debian.org/search?keywords=fail2ban",
+    "description": "fail2ban bans hosts causing multiple authentication errors, protecting servers against brute-force attacks."
   },
   {
     "name": "aide",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=aide"
+    "url": "https://packages.debian.org/search?keywords=aide",
+    "description": "aide is an advanced intrusion detection environment for Linux systems, providing file integrity checking and monitoring."
   },
   {
     "name": "auditd",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=auditd"
+    "url": "https://packages.debian.org/search?keywords=auditd",
+    "description": "auditd is a user space tool for security auditing on Linux systems, monitoring and logging system calls and events."
   },
   {
     "name": "apparmor-utils",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=apparmor-utils"
+    "url": "https://packages.debian.org/search?keywords=apparmor-utils",
+    "description": "apparmor-utils provides command-line tools for managing AppArmor profiles on Linux systems."
   },
   {
     "name": "ufw",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=ufw"
+    "url": "https://packages.debian.org/search?keywords=ufw",
+    "description": "ufw is a command-line utility for managing a Netfilter firewall, providing a simple way to configure iptables rules for inbound and outbound traffic."
   },
   {
     "name": "tiger",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=tiger"
+    "url": "https://packages.debian.org/search?keywords=tiger",
+    "description": "Tiger is a security auditing and intrusion detection tool for Linux systems."
   },
   {
     "name": "darkstat",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=darkstat"
+    "url": "https://packages.debian.org/search?keywords=darkstat",
+    "description": "darkstat is a network traffic analyzer that passively monitors network traffic and generates bandwidth graphs and reports."
   },
   {
     "name": "chaosreader",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=chaosreader"
+    "url": "https://packages.debian.org/search?keywords=chaosreader",
+    "description": "Chaosreader is a network session tracer that exports data to HTML format, suitable for various Debian-based systems."
   },
   {
     "name": "sentrypeer",
     "method": "apt",
     "module": "blueteam",
-    "url": "https://packages.debian.org/search?keywords=sentrypeer"
+    "url": "https://packages.debian.org/search?keywords=sentrypeer",
+    "description": "sentrypeer is a network security tool for detecting and preventing peer-to-peer (P2P) traffic on a network."
   },
   {
     "name": "sigma-cli",
     "method": "pipx",
     "module": "blueteam",
-    "url": "https://pypi.org/project/sigma-cli/"
+    "url": "https://pypi.org/project/sigma-cli/",
+    "description": "sigma-cli is a command-line interface for Sigma, a language for writing detection rules for security information and event management (SIEM) systems. It allows users to manage and execute Sigma rules on various SIEM platforms."
   },
   {
     "name": "sigma-rules",
     "method": "git",
     "module": "blueteam",
-    "url": "https://github.com/SigmaHQ/sigma"
+    "url": "https://github.com/SigmaHQ/sigma",
+    "description": "Sigma-rules is an open-source repository of generic detection rules for SIEM systems, supporting various log formats and platforms."
   },
   {
     "name": "maltrail",
     "method": "git",
     "module": "blueteam",
-    "url": "https://github.com/stamparm/maltrail"
+    "url": "https://github.com/stamparm/maltrail",
+    "description": "Maltrail is a network traffic detection system that identifies communication with known malicious infrastructure using a set of indicators called trails, combining static trails, public feeds, and optional operator-supplied trails."
   },
   {
     "name": "MISP-docker",
     "method": "git",
     "module": "blueteam",
-    "url": "https://github.com/MISP/misp-docker"
+    "url": "https://github.com/MISP/misp-docker",
+    "description": "MISP-docker provides a production-ready Docker image for MISP, a collaborative platform for threat intelligence sharing, with features like MISP and MISP modules split into separate containers, optional MISP-Guard for traffic filtering, and support for LDAP, OIDC, and CustomAuth authentication."
   },
   {
     "name": "phishkit-triage",
     "method": "git",
     "module": "blueteam",
-    "url": "https://github.com/trac3r00/phish-triage"
+    "url": "https://github.com/trac3r00/phish-triage",
+    "description": "phishkit-triage is a Python toolkit for examining phishing emails (.eml files), extracting indicators of compromise (IOCs), and producing analyst-oriented reports and detection content. It supports SPF, DKIM, DMARC, URL and attachment hash enrichment, and assigns verdicts based on analysis."
   },
   {
     "name": "wazuh-docker",
     "method": "git",
     "module": "blueteam",
-    "url": "https://github.com/wazuh/wazuh-docker"
+    "url": "https://github.com/wazuh/wazuh-docker",
+    "description": "Wazuh-docker provides Docker containers for deploying the Wazuh cybersecurity platform, including the Wazuh manager, dashboard, and OpenSearch for log analysis and monitoring."
   },
   {
     "name": "velociraptor",
     "method": "binary",
     "module": "blueteam",
-    "url": "https://github.com/Velocidex/velociraptor"
+    "url": "https://github.com/Velocidex/velociraptor",
+    "description": "Velociraptor is an endpoint visibility and collection tool using VQL queries for digital forensics, endpoint protection, and incident response."
   },
   {
     "name": "laurel",
     "method": "binary",
     "module": "blueteam",
-    "url": "https://github.com/threathunters-io/laurel"
+    "url": "https://github.com/threathunters-io/laurel",
+    "description": "LAUREL is an event post-processing plugin for auditd that generates useful, enriched JSON-based audit logs for modern security monitoring setups."
   },
   {
     "name": "thehive",
     "method": "docker",
     "module": "blueteam",
-    "url": "https://hub.docker.com/r/strangebee/thehive"
+    "url": "https://hub.docker.com/r/strangebee/thehive",
+    "description": "TheHive: collaborative cyber incident response management platform for Docker."
   },
   {
     "name": "cortex",
     "method": "docker",
     "module": "blueteam",
-    "url": "https://hub.docker.com/r/thehiveproject/cortex"
+    "url": "https://hub.docker.com/r/thehiveproject/cortex",
+    "description": "Cortex is an open-source, free observables analysis and active response engine for SOCs, CSIRTs, and security researchers, enabling automated analysis of IP, email, URLs, domains, files, and hashes through a web interface or REST API."
   },
   {
     "name": "adb",
     "method": "apt",
     "module": "mobile",
-    "url": "https://packages.debian.org/search?keywords=adb"
+    "url": "https://packages.debian.org/search?keywords=adb",
+    "description": "ADB (Android Debug Bridge) is a versatile command-line tool for interacting with Android devices, enabling debugging, file transfer, and device management."
   },
   {
     "name": "smali",
     "method": "apt",
     "module": "mobile",
-    "url": "https://packages.debian.org/search?keywords=smali"
+    "url": "https://packages.debian.org/search?keywords=smali",
+    "description": "Smali is an assembler/disassembler for Android's DEX format, used for reverse engineering and customizing Android applications."
   },
   {
     "name": "scrcpy",
     "method": "apt",
     "module": "mobile",
-    "url": "https://packages.debian.org/search?keywords=scrcpy"
+    "url": "https://packages.debian.org/search?keywords=scrcpy",
+    "description": "scrcpy: Display and control your Android device over USB or TCP/IP."
   },
   {
     "name": "apksigner",
     "method": "apt",
     "module": "mobile",
-    "url": "https://packages.debian.org/search?keywords=apksigner"
+    "url": "https://packages.debian.org/search?keywords=apksigner",
+    "description": "Apksigner is a command line tool for signing and verifying Android APKs."
   },
   {
     "name": "zipalign",
     "method": "apt",
     "module": "mobile",
-    "url": "https://packages.debian.org/search?keywords=zipalign"
+    "url": "https://packages.debian.org/search?keywords=zipalign",
+    "description": "zipalign aligns the resources in Android APK files to improve performance on ARM processors."
   },
   {
     "name": "androguard",
     "method": "pipx",
     "module": "mobile",
-    "url": "https://pypi.org/project/androguard/"
+    "url": "https://pypi.org/project/androguard/",
+    "description": "Androguard is a Python-based tool for analyzing Android applications, primarily used for malware analysis and security research."
   },
   {
     "name": "apkleaks",
     "method": "pipx",
     "module": "mobile",
-    "url": "https://pypi.org/project/apkleaks/"
+    "url": "https://pypi.org/project/apkleaks/",
+    "description": "apkleaks scans APK files for URIs, endpoints, and secrets using jadx disassembler."
   },
   {
     "name": "objection",
     "method": "pipx",
     "module": "mobile",
-    "url": "https://pypi.org/project/objection/"
+    "url": "https://pypi.org/project/objection/",
+    "description": "objection is a runtime mobile exploration toolkit using Frida for assessing mobile app security on iOS and Android, enabling tasks like inspecting file systems, bypassing SSL pinning, and memory manipulation."
   },
   {
     "name": "apktool",
     "method": "git",
     "module": "mobile",
-    "url": "https://github.com/iBotPeaches/Apktool"
+    "url": "https://github.com/iBotPeaches/Apktool",
+    "description": "Apktool is a tool for reverse engineering Android APK files, decoding resources and rebuilding them with modifications."
   },
   {
     "name": "mobsf",
     "method": "docker",
     "module": "mobile",
-    "url": "https://hub.docker.com/r/opensecurity/mobile-security-framework-mobsf"
+    "url": "https://hub.docker.com/r/opensecurity/mobile-security-framework-mobsf",
+    "description": "MobSF is an automated mobile application pentesting framework for Android, iOS, and Windows Mobile, supporting static and dynamic analysis, and integrating with DevSecOps pipelines via REST APIs and CLI tools."
   },
   {
     "name": "solc-select",
     "method": "pipx",
     "module": "blockchain",
-    "url": "https://github.com/crytic/solc-select"
+    "url": "https://github.com/crytic/solc-select",
+    "description": "solc-select is a tool to manage and switch between different Solidity compiler versions for Ethereum development."
   },
   {
     "name": "slither-analyzer",
     "method": "pipx",
     "module": "blockchain",
-    "url": "https://pypi.org/project/slither-analyzer/"
+    "url": "https://pypi.org/project/slither-analyzer/",
+    "description": "Slither is a static analysis framework for Solidity and Vyper smart contracts, detecting vulnerabilities and providing detailed contract information."
   },
   {
     "name": "mythril",
     "method": "pipx",
     "module": "blockchain",
-    "url": "https://pypi.org/project/mythril/"
+    "url": "https://pypi.org/project/mythril/",
+    "description": "Mythril is a security analysis tool for Ethereum smart contracts, using symbolic execution, SMT solving, and taint analysis to detect vulnerabilities across various EVM-compatible blockchains."
   },
   {
     "name": "echidna",
     "method": "docker",
     "module": "blockchain",
-    "url": "https://hub.docker.com/r/trailofbits/echidna"
+    "url": "https://hub.docker.com/r/trailofbits/echidna",
+    "description": "Echidna is a Haskell library for fuzzing/property-based testing of EVM code, generating inputs tailored to actual code and checking invariants."
   },
   {
     "name": "foundry",
     "method": "special",
     "module": "blockchain",
-    "url": "https://github.com/foundry-rs/foundry"
+    "url": "https://github.com/foundry-rs/foundry",
+    "description": "Foundry is a blazing fast, portable, and modular toolkit for Ethereum application development, written in Rust. It includes Forge for building, testing, fuzzing, debugging, and deploying Solidity contracts, Cast for interacting with EVM smart contracts, Anvil for fast local Ethereum development, and Chisel for a fast, utilitarian, and verbose Solidity REPL. Target platform: Ethereum."
   },
   {
     "name": "halmos",
     "method": "pipx",
     "module": "blockchain",
-    "url": "https://github.com/a16z/halmos"
+    "url": "https://github.com/a16z/halmos",
+    "description": "Halmos is a symbolic testing tool for EVM smart contracts, primarily used for formal verification of Solidity/Foundry code."
   },
   {
     "name": "crytic-compile",
     "method": "pipx",
     "module": "blockchain",
-    "url": "https://github.com/crytic/crytic-compile"
+    "url": "https://github.com/crytic/crytic-compile",
+    "description": "Crytic-compile is a Python library and command-line tool for compiling smart contracts across multiple frameworks and protocols, generating AST/ABI and bytecodes for analysis."
   },
   {
     "name": "eth-ape",
     "method": "pipx",
     "module": "blockchain",
-    "url": "https://github.com/ApeWorX/ape"
+    "url": "https://github.com/ApeWorX/ape",
+    "description": "eth-ape is a Python framework for building and exploring on-chain applications on Ethereum, supporting multiple contract languages and chains through a modular plugin system."
   },
   {
     "name": "aderyn",
     "method": "cargo",
     "module": "blockchain",
-    "url": "https://github.com/Cyfrin/aderyn"
+    "url": "https://github.com/Cyfrin/aderyn",
+    "description": "Solidity static analyzer for Rust-based projects, integrates with editors for code quality checks."
   },
   {
     "name": "crytic-medusa",
