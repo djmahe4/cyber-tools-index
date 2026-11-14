@@ -4483,223 +4483,260 @@
     "name": "cartography",
     "method": "pipx",
     "module": "cloud",
-    "url": "https://pypi.org/project/cartography/"
+    "url": "https://pypi.org/project/cartography/",
+    "description": "Cartography is a Python tool that pulls infrastructure assets and their relationships into a Neo4j graph database, supporting platforms like AWS, GCP, Azure, Kubernetes, and more. It helps answer questions about access, vulnerabilities, and network paths in technical infrastructure."
   },
   {
     "name": "principalmapper",
     "method": "pipx",
     "module": "cloud",
-    "url": "https://pypi.org/project/principalmapper/"
+    "url": "https://pypi.org/project/principalmapper/",
+    "description": "principalmapper is a Python tool for mapping and visualizing principal components in data, useful for dimensionality reduction and feature extraction in machine learning and data analysis."
   },
   {
     "name": "PurplePanda",
     "method": "git",
     "module": "cloud",
-    "url": "https://github.com/carlospolop/PurplePanda"
+    "url": "https://github.com/carlospolop/PurplePanda",
+    "description": "PurplePanda identifies privilege escalation paths within and across different cloud platforms, focusing on permissions and dangerous configurations. It supports GCP, GitHub, and Kubernetes, and uses Neo4j for data visualization."
   },
   {
     "name": "cloudmapper",
     "method": "git",
     "module": "cloud",
-    "url": "https://github.com/duo-labs/cloudmapper"
+    "url": "https://github.com/duo-labs/cloudmapper",
+    "description": "CloudMapper analyzes AWS environments, auditing for misconfigurations and collecting metadata, with support for generating reports and visualizations."
   },
   {
     "name": "kics",
     "method": "docker",
     "module": "cloud",
-    "url": "https://hub.docker.com/r/checkmarx/kics"
+    "url": "https://hub.docker.com/r/checkmarx/kics",
+    "description": "KICS scans Infrastructure as Code (IAC) files for security vulnerabilities, supporting multiple platforms and outputting results in JSON format."
   },
   {
     "name": "trivy",
     "method": "binary",
     "module": "containers",
-    "url": "https://github.com/aquasecurity/trivy"
+    "url": "https://github.com/aquasecurity/trivy",
+    "description": "Trivy is a comprehensive security scanner for container images, filesystems, Git repositories, VMs, and Kubernetes, identifying vulnerabilities, misconfigurations, secrets, and licenses."
   },
   {
     "name": "dive",
     "method": "binary",
     "module": "containers",
-    "url": "https://github.com/wagoodman/dive"
+    "url": "https://github.com/wagoodman/dive",
+    "description": "dive is a CLI tool for exploring Docker image layers, showing contents, changes, and estimating image efficiency. It supports building and analyzing images directly from the command line and integrates with CI/CD pipelines."
   },
   {
     "name": "dockle",
     "method": "binary",
     "module": "containers",
-    "url": "https://github.com/goodwithtech/dockle"
+    "url": "https://github.com/goodwithtech/dockle",
+    "description": "Dockle is a container image linter for security, helping build best-practice Docker images by checking against CIS benchmarks and other security standards."
   },
   {
     "name": "hadolint",
     "method": "binary",
     "module": "containers",
-    "url": "https://github.com/hadolint/hadolint"
+    "url": "https://github.com/hadolint/hadolint",
+    "description": "Hadolint is a Dockerfile linter that checks for best practices and potential issues in Dockerfiles, using Haskell and ShellCheck for inline Bash code validation."
   },
   {
     "name": "kubesec",
     "method": "binary",
     "module": "containers",
-    "url": "https://github.com/controlplaneio/kubesec"
+    "url": "https://github.com/controlplaneio/kubesec",
+    "description": "kubesec is a static analysis tool for Kubernetes resources to identify security risks."
   },
   {
     "name": "kube-bench",
     "method": "binary",
     "module": "containers",
-    "url": "https://github.com/aquasecurity/kube-bench"
+    "url": "https://github.com/aquasecurity/kube-bench",
+    "description": "kube-bench checks Kubernetes deployments against CIS Kubernetes Benchmark security standards."
   },
   {
     "name": "terrascan",
     "method": "binary",
     "module": "containers",
-    "url": "https://github.com/tenable/terrascan"
+    "url": "https://github.com/tenable/terrascan",
+    "description": "Terrascan is a static code analyzer for Infrastructure as Code, detecting compliance and security violations across various cloud platforms and IAC tools."
   },
   {
     "name": "drozer",
     "method": "pipx",
     "module": "mobile",
-    "url": "https://pypi.org/project/drozer/"
+    "url": "https://pypi.org/project/drozer/",
+    "description": "drozer is an open-source Android security testing framework that allows security professionals to search for vulnerabilities in apps and devices by simulating app interactions with the Android Runtime and other apps' IPC endpoints."
   },
   {
     "name": "qark",
     "method": "pipx",
     "module": "mobile",
-    "url": "https://pypi.org/project/qark/"
+    "url": "https://pypi.org/project/qark/",
+    "description": "qark is a static code analysis tool for identifying security vulnerabilities in Android applications."
   },
   {
     "name": "apkid",
     "method": "pipx",
     "module": "mobile",
-    "url": "https://pypi.org/project/apkid/"
+    "url": "https://pypi.org/project/apkid/",
+    "description": "APKiD identifies compilers, packers, and obfuscators in Android APKs, similar to PEiD for Android."
   },
   {
     "name": "medusa-frida",
     "method": "git",
     "module": "mobile",
-    "url": "https://github.com/Ch0pin/medusa"
+    "url": "https://github.com/Ch0pin/medusa",
+    "description": "medusa-frida is a modular automation framework for runtime testing and investigating Android and iOS apps, using Frida for dynamic analysis. It supports bypassing protections, inspecting network activity, tracing API calls, and monitoring malware behavior."
   },
   {
     "name": "apk-mitm",
     "method": "npm",
     "module": "mobile",
-    "url": "https://www.npmjs.com/package/apk-mitm"
+    "url": "https://www.npmjs.com/package/apk-mitm",
+    "description": "apk-mitm is a tool for intercepting and modifying Android APK files, primarily used for security testing and analysis."
   },
   {
     "name": "rms-runtime-mobile-security",
     "method": "npm",
     "module": "mobile",
-    "url": "https://www.npmjs.com/package/rms-runtime-mobile-security"
+    "url": "https://www.npmjs.com/package/rms-runtime-mobile-security",
+    "description": "rms-runtime-mobile-security is a runtime security tool for mobile applications, designed to protect against malicious activities and ensure secure execution environments."
   },
   {
     "name": "manticore",
     "method": "pipx",
     "module": "blockchain",
-    "url": "https://pypi.org/project/manticore/"
+    "url": "https://pypi.org/project/manticore/",
+    "description": "Manticore is a symbolic execution tool for analyzing Ethereum smart contracts and Linux ELF binaries, enabling program exploration, input generation, and error discovery through a Python API and CLI."
   },
   {
     "name": "surya",
     "method": "npm",
     "module": "blockchain",
-    "url": "https://www.npmjs.com/package/surya"
+    "url": "https://www.npmjs.com/package/surya",
+    "description": "Surya is a JavaScript library for performing security verification on web applications, primarily used to protect against malicious bots."
   },
   {
     "name": "solgraph",
     "method": "npm",
     "module": "blockchain",
-    "url": "https://www.npmjs.com/package/solgraph"
+    "url": "https://www.npmjs.com/package/solgraph",
+    "description": "solgraph is a JavaScript library for visualizing Solidity code dependencies, useful for developers working with Ethereum smart contracts."
   },
   {
     "name": "osquery",
     "method": "binary",
     "module": "blueteam",
-    "url": "https://github.com/osquery/osquery"
+    "url": "https://github.com/osquery/osquery",
+    "description": "osquery is a SQL-powered framework for operating system instrumentation, monitoring, and analytics, available for Linux, macOS, and Windows."
   },
   {
     "name": "atomic-red-team",
     "method": "git",
     "module": "blueteam",
-    "url": "https://github.com/redcanaryco/atomic-red-team"
+    "url": "https://github.com/redcanaryco/atomic-red-team",
+    "description": "Atomic Red Team is a library of tests mapped to the MITRE ATT&CK framework, enabling security teams to quickly, portably, and reproducibly test their environments."
   },
   {
     "name": "ettercap-text-only",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=ettercap-text-only"
+    "url": "https://packages.debian.org/search?keywords=ettercap-text-only",
+    "description": "Ettercap-text-only is a console-mode version of Ettercap, a network sniffer and packet manipulation tool for security testing and analysis."
   },
   {
     "name": "sslstrip",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=sslstrip"
+    "url": "https://packages.debian.org/search?keywords=sslstrip",
+    "description": "sslstrip is a tool that intercepts SSL/TLS traffic and converts it to HTTP, allowing for man-in-the-middle attacks on HTTPS connections."
   },
   {
     "name": "gost",
     "method": "binary",
     "module": "networking",
-    "url": "https://github.com/ginuerzh/gost"
+    "url": "https://github.com/ginuerzh/gost",
+    "description": "GO Simple Tunnel - a simple tunnel written in golang, supporting multiple tunnel types, proxy protocols, and features like port forwarding, DNS resolution, and more."
   },
   {
     "name": "wstunnel",
     "method": "binary",
     "module": "networking",
-    "url": "https://github.com/erebe/wstunnel"
+    "url": "https://github.com/erebe/wstunnel",
+    "description": "wstunnel is a command-line tool for tunneling traffic over Websocket or HTTP2, enabling bypass of firewalls and proxies. It supports static and dynamic tunneling, SOCKS5, TCP, UDP, and UDP tunneling, and is available as a standalone binary."
   },
   {
     "name": "Mythic",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/its-a-feature/Mythic"
+    "url": "https://github.com/its-a-feature/Mythic",
+    "description": "Mythic is a collaborative, multi-platform red teaming framework for post-exploit operations, built with GoLang, Docker, and a web UI."
   },
   {
     "name": "Havoc",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/HavocFramework/Havoc"
+    "url": "https://github.com/HavocFramework/Havoc",
+    "description": "Havoc is a modern post-exploitation C2 framework for Windows, Linux, and macOS, featuring a cross-platform UI, multi-user control, and customizable C2 profiles."
   },
   {
     "name": "PoshC2",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/nettitude/PoshC2"
+    "url": "https://github.com/nettitude/PoshC2",
+    "description": "PoshC2 is a proxy-aware C2 framework for red teaming, post-exploitation, and lateral movement, supporting Windows, *nix, and OSX."
   },
   {
     "name": "merlin",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/Ne0nd0g/merlin"
+    "url": "https://github.com/Ne0nd0g/merlin",
+    "description": "Merlin is a cross-platform HTTP/2 C2 server and agent for post-exploitation."
   },
   {
     "name": "nemoguardrails",
     "method": "pipx",
     "module": "llm",
-    "url": "https://pypi.org/project/nemoguardrails/"
+    "url": "https://pypi.org/project/nemoguardrails/",
+    "description": "NeMo Guardrails is an open-source toolkit for adding programmable guardrails to LLM-based conversational systems, enabling control over model output and enhancing security and trustworthiness."
   },
   {
     "name": "PurpleLlama",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/meta-llama/PurpleLlama"
+    "url": "https://github.com/meta-llama/PurpleLlama",
+    "description": "PurpleLlama is an open-source project for evaluating and improving the cybersecurity of large language models, including tools for attack and defense postures."
   },
   {
     "name": "trailofbits-skills",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/trailofbits/skills"
+    "url": "https://github.com/trailofbits/skills",
+    "description": "Trail of Bits skills for security research, vulnerability detection, and audit workflows, compatible with Claude Code, Codex, and ChatGPT."
   },
   {
     "name": "Anthropic-Cybersecurity-Skills",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Anthropic-Cybersecurity-Skills is an open-source library of 817 cybersecurity skills mapped to 6 frameworks, compatible with 26+ AI platforms, and covering 34 security domains for authorized penetration testing and security research."
   },
   {
     "name": "Claude-Red",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/SnailSploit/Claude-Red"
+    "url": "https://github.com/SnailSploit/Claude-Red",
+    "description": "Claude-Red is a library of offensive security skills for the Claude Skills system, providing expert-level methodology for various attack surfaces."
   },
   {
     "name": "bountyforge",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/Gabson0x/bountyforge"
+    "url": "https://github.com/Gabson0x/bountyforge",
+    "description": "BountyForge is an AI-driven bug bounty tool that automates parallelized security assessments for web/APIs, smart contracts, and infrastructure, generating submission-ready reports for various platforms."
   },
   {
     "name": "L1B3RT4S",
@@ -4711,205 +4748,239 @@
     "name": "AISecLists",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/SecNode/AISecLists"
+    "url": "https://github.com/SecNode/AISecLists",
+    "description": "AISecLists is a curated collection of prompt lists for diverse AI security assessments, including LLM jailbreaks, prompt injection, and information disclosure."
   },
   {
     "name": "raptor",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/gadievron/raptor"
+    "url": "https://github.com/gadievron/raptor",
+    "description": "Raptor is an autonomous security research framework that chains together static analysis, binary analysis, LLM-powered vulnerability validation, exploit generation, and patch writing into a single workflow for codebases and binaries."
   },
   {
     "name": "SkillSpector",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/NVIDIA/SkillSpector"
+    "url": "https://github.com/NVIDIA/SkillSpector",
+    "description": "SkillSpector is a security scanner for AI agent skills, detecting vulnerabilities, malicious patterns, and security risks before installation."
   },
   {
     "name": "hexstrike-ai",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/0x4m4/hexstrike-ai"
+    "url": "https://github.com/0x4m4/hexstrike-ai",
+    "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. It supports multiple AI agents and integrates with various security tools."
   },
   {
     "name": "open-interpreter",
     "method": "pipx",
     "module": "llm",
-    "url": "https://pypi.org/project/open-interpreter/"
+    "url": "https://pypi.org/project/open-interpreter/",
+    "description": "Open Interpreter allows language models to run code locally, providing a natural-language interface for various tasks like data analysis, web browsing, and more. It supports Python, JavaScript, Shell, and other languages."
   },
   {
     "name": "llm-guard",
     "method": "pipx",
     "module": "llm",
-    "url": "https://pypi.org/project/llm-guard/"
+    "url": "https://pypi.org/project/llm-guard/",
+    "description": "LLM-Guard sanitizes, detects harmful language, prevents data leakage, and resists prompt injection attacks to secure interactions with Large Language Models."
   },
   {
     "name": "giskard",
     "method": "pipx",
     "module": "llm",
-    "url": "https://pypi.org/project/giskard/"
+    "url": "https://pypi.org/project/giskard/",
+    "description": "Giskard is an open-source Python library for testing and evaluating agentic systems, including LLMs and black-box agents, using modular, lightweight, and dynamic packages."
   },
   {
     "name": "mcp-security-hub",
     "method": "docker",
     "module": "llm",
-    "url": "https://github.com/FuzzingLabs/mcp-security-hub"
+    "url": "https://github.com/FuzzingLabs/mcp-security-hub",
+    "description": "mcp-security-hub is a GitHub repository for cybersecurity tools, primarily used for code, projects, and people in the security community."
   },
   {
     "name": "bolt",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/CyberStrikeus/bolt"
+    "url": "https://github.com/CyberStrikeus/bolt",
+    "description": "Bolt is a plugin-based security tool server that allows for the execution of various penetration testing tools via MCP (Multi-Process Communication). It supports both native TypeScript plugins and external MCP servers, providing a unified interface for security assessments."
   },
   {
     "name": "nebula",
     "method": "apt",
     "module": "llm",
-    "url": "https://github.com/BerylliumSec/nebula-apt"
+    "url": "https://github.com/BerylliumSec/nebula-apt",
+    "description": "Nebula is a secret-free APT repository for Nebula Linux releases, providing both stable and prerelease versions for Debian-based systems."
   },
   {
     "name": "nebula-overlay",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?suite=default&section=all&arch=any&searchon=names&keywords=nebula"
+    "url": "https://packages.debian.org/search?suite=default&section=all&arch=any&searchon=names&keywords=nebula",
+    "description": "Nebula-overlay is a performant, scalable network overlay tool for creating virtual networks."
   },
   {
     "name": "PortSwigger-mcp-server",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/PortSwigger/mcp-server"
+    "url": "https://github.com/PortSwigger/mcp-server",
+    "description": "PortSwigger-mcp-server is an extension for Burp Suite that integrates with AI clients using the Model Context Protocol (MCP), supporting both Streamable HTTP and legacy SSE transports."
   },
   {
     "name": "MetasploitMCP",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/GH05TCREW/MetasploitMCP"
+    "url": "https://github.com/GH05TCREW/MetasploitMCP",
+    "description": "MetasploitMCP is an MCP server for Metasploit Framework integration, enabling AI assistants to dynamically access and control Metasploit functionality through standardized tools."
   },
   {
     "name": "mcp-shodan",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/w0h1v/mcp-shodan"
+    "url": "https://github.com/w0h1v/mcp-shodan",
+    "description": "mcp-shodan is an MCP server for Shodan, providing AI agents with network intelligence, DNS, and vulnerability intelligence over the Model Context Protocol."
   },
   {
     "name": "osint-mcp-server",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/badchars/osint-mcp-server"
+    "url": "https://github.com/badchars/osint-mcp-server",
+    "description": "osint-mcp-server is an AI-driven OSINT MCP server that consolidates 37 tools and 12 data sources (Shodan, VirusTotal, Censys, etc.) for automated, full-spectrum intelligence gathering and attack surface mapping."
   },
   {
     "name": "PentestGPT",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/GreyDGL/PentestGPT"
+    "url": "https://github.com/GreyDGL/PentestGPT",
+    "description": "PentestGPT is an AI-powered autonomous penetration testing agent using large language models for automated CTF and pentest tasks."
   },
   {
     "name": "Decepticon",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/PurpleAILAB/Decepticon"
+    "url": "https://github.com/PurpleAILAB/Decepticon",
+    "description": "Decepticon is an autonomous red team agent for cybersecurity testing, primarily used for penetration testing and vulnerability assessment. It runs nmap and generates reports. Target platform/protocol: Network and system security."
   },
   {
     "name": "Agentic-Bug-Hunter",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/Awarexone/Agentic-Bug-Hunter"
+    "url": "https://github.com/Awarexone/Agentic-Bug-Hunter",
+    "description": "AI-powered bug bounty hunting toolkit for ethical hacking and vulnerability discovery."
   },
   {
     "name": "AgentDojo",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/ethz-spylab/agentdojo"
+    "url": "https://github.com/ethz-spylab/agentdojo",
+    "description": "AgentDojo is a dynamic environment for evaluating prompt injection attacks and defenses for large language model agents."
   },
   {
     "name": "PurpleLlama",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/meta-llama/PurpleLlama"
+    "url": "https://github.com/meta-llama/PurpleLlama",
+    "description": "PurpleLlama is an open-source project for evaluating and improving the cybersecurity of large language models, including tools for attack and defense postures."
   },
   {
     "name": "AI-Infra-Guard",
     "method": "git",
     "module": "llm",
-    "url": "https://github.com/Tencent/AI-Infra-Guard"
+    "url": "https://github.com/Tencent/AI-Infra-Guard",
+    "description": "AI-Infra-Guard is a full-stack AI red teaming platform by Tencent Zhuque Lab, offering comprehensive security checks for AI infrastructure, including agent, AI tool, skill, and LLM scans, to identify and mitigate risks."
   },
   {
     "name": "hackingBuddyGPT",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/ipa-lab/hackingBuddyGPT"
+    "url": "https://github.com/ipa-lab/hackingBuddyGPT",
+    "description": "hackingBuddyGPT is an open-source framework for building LLM-driven security-testing agents, providing essential groundwork for ethical hackers to express new experiments in a few dozen lines of code."
   },
   {
     "name": "DorkAgent",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/yee-yore/DorkAgent"
+    "url": "https://github.com/yee-yore/DorkAgent",
+    "description": "DorkAgent is an LLM-powered agent for automated Google Dorking in bug hunting and pentesting, supporting Serper and SerpApi search engines and various LLM providers."
   },
   {
     "name": "cain-agent",
     "method": "pipx",
     "module": "llm",
-    "url": "https://github.com/cdxiaodong/cain-agent"
+    "url": "https://github.com/cdxiaodong/cain-agent",
+    "description": "Cain-agent is an AI penetration testing tool for real-world authorized assessments, focusing on business-logic flaws, auth chains, and cloud misconfigurations. It supports multiple cloud platforms including AWS, Azure, GCP, and Chinese clouds, and is built on the Claude Agent SDK."
   },
   {
     "name": "mcp_zoomeye",
     "method": "pip",
     "module": "llm",
-    "url": "https://github.com/zoomeye-ai/mcp_zoomeye"
+    "url": "https://github.com/zoomeye-ai/mcp_zoomeye",
+    "description": "A Model Context Protocol server that provides network asset information based on query conditions, supporting ZoomEye dorks and other search parameters."
   },
   {
     "name": "pyonyphe",
     "method": "pip",
     "module": "recon",
-    "url": "https://github.com/onyphe/pyonyphe"
+    "url": "https://github.com/onyphe/pyonyphe",
+    "description": "pyonyphe is a Python client and CLI for ONYPHE, a Cyber Defense Search Engine, providing access to various API endpoints for querying and exporting cybersecurity data."
   },
   {
     "name": "greynoise-mcp-server",
     "method": "pip",
     "module": "llm",
-    "url": "https://github.com/GreyNoise-Intelligence/greynoise-mcp-server"
+    "url": "https://github.com/GreyNoise-Intelligence/greynoise-mcp-server",
+    "description": "greynoise-mcp-server is an MCP server for the GreyNoise API, providing access to threat intelligence and operational tools for IP context, GNQL search, and more."
   },
   {
     "name": "fofa-mcp-server",
     "method": "pip",
     "module": "llm",
-    "url": "https://github.com/help116114/fofa-mcp-server"
+    "url": "https://github.com/help116114/fofa-mcp-server",
+    "description": "A Model Context Protocol (MCP) server enabling AI assistants to query FoFa's database for internet-connected devices and services using search capabilities and user information retrieval."
   },
   {
     "name": "leakix-mcp",
     "method": "pip",
     "module": "llm",
-    "url": "https://github.com/LeakIX/leakix-mcp"
+    "url": "https://github.com/LeakIX/leakix-mcp",
+    "description": "MCP server for the LeakIX API, enabling security research and reconnaissance through various tools and queries."
   },
   {
     "name": "exploitdb-mcp-server",
     "method": "pip",
     "module": "llm",
-    "url": "https://github.com/Cyreslab-AI/exploitdb-mcp-server"
+    "url": "https://github.com/Cyreslab-AI/exploitdb-mcp-server",
+    "description": "ExploitDB MCP Server provides access to Exploit-DB functionality via Model Context Protocol, enabling AI assistants to search, retrieve, and analyze security exploits and vulnerabilities."
   },
   {
     "name": "mcp-pulsedive",
     "method": "pip",
     "module": "llm",
-    "url": "https://github.com/pipeworx-io/mcp-pulsedive"
+    "url": "https://github.com/pipeworx-io/mcp-pulsedive",
+    "description": "mcp-pulsedive is an unofficial integration for the Pipeworx MCP gateway, providing threat intelligence IOC enrichment through Pulsedive."
   },
   {
     "name": "vulners-mcp",
     "method": "pip",
     "module": "llm",
-    "url": "https://github.com/vulnersCom/vulners-mcp"
+    "url": "https://github.com/vulnersCom/vulners-mcp",
+    "description": "Vulners MCP Server provides seamless access to the Vulners vulnerability database through AI assistants like Claude Desktop, enabling security researchers and developers to query comprehensive vulnerability data, search for CVEs, and audit software packages directly through natural language conversations."
   },
   {
     "name": "publicwww-mcp",
     "method": "pip",
     "module": "llm",
-    "url": "https://github.com/publicwww-com/publicwww-mcp"
+    "url": "https://github.com/publicwww-com/publicwww-mcp",
+    "description": "publicwww-mcp is an MCP server for searching source code from AI assistants like Claude, ChatGPT, and Cursor. It allows users to find and extract information from web pages, such as scripts, libraries, and tracking IDs, and save them as clusters. It supports various clients including web, desktop, and command-line tools."
   },
   {
     "name": "hunter-io-agents",
     "method": "special",
     "module": "recon",
-    "url": "https://hunter.io/agents.md"
+    "url": "https://hunter.io/agents.md",
+    "description": "Hunter-io-agents connects Hunter.io to AI agents for email address verification, contact discovery, and company enrichment."
   },
   {
     "name": "searchcode-mcp",
@@ -4927,12 +4998,14 @@
     "name": "dnsdumpster",
     "method": "special",
     "module": "recon",
-    "url": "https://dnsdumpster.com/developer/"
+    "url": "https://dnsdumpster.com/developer/",
+    "description": "dnsdumpster is a DNS information and attack surface analysis tool accessible via API, providing DNS records, ASN details, and network banners for domains."
   },
   {
     "name": "mcp-virustotal",
     "method": "pip",
     "module": "llm",
-    "url": "https://github.com/w0h1v/mcp-virustotal"
+    "url": "https://github.com/w0h1v/mcp-virustotal",
+    "description": "mcp-virustotal is an MCP server for VirusTotal API, providing comprehensive security reports, relationship analysis, and pagination support for URLs, files, IPs, and domains."
   }
 ]
