@@ -283,601 +283,701 @@
     "name": "empire",
     "method": "docker",
     "module": "misc",
-    "url": "https://hub.docker.com/r/bcsecurity/empire"
+    "url": "https://hub.docker.com/r/bcsecurity/empire",
+    "description": "Empire is a post-exploitation framework for Windows environments, allowing attackers to maintain persistence, gather information, and execute commands on compromised systems."
   },
   {
     "name": "spiderfoot",
     "method": "docker",
     "module": "misc",
-    "url": "https://hub.docker.com/r/spiderfoot/spiderfoot"
+    "url": "https://hub.docker.com/r/spiderfoot/spiderfoot",
+    "description": "Spiderfoot is an open-source intelligence (OSINT) tool for gathering information about a target using various online sources."
   },
   {
     "name": "nmap",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=nmap"
+    "url": "https://packages.debian.org/search?keywords=nmap",
+    "description": "nmap is a network scanning tool for discovering hosts and services on a network."
   },
   {
     "name": "masscan",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=masscan"
+    "url": "https://packages.debian.org/search?keywords=masscan",
+    "description": "masscan is a fast TCP port scanner designed for network discovery and security auditing."
   },
   {
     "name": "netdiscover",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=netdiscover"
+    "url": "https://packages.debian.org/search?keywords=netdiscover",
+    "description": "netdiscover is an active/passive network address scanner using ARP requests, designed for Linux."
   },
   {
     "name": "tcpdump",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=tcpdump"
+    "url": "https://packages.debian.org/search?keywords=tcpdump",
+    "description": "tcpdump is a command-line network traffic analyzer for capturing and analyzing network packets on various platforms and protocols."
   },
   {
     "name": "hping3",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=hping3"
+    "url": "https://packages.debian.org/search?keywords=hping3",
+    "description": "hping3 is a command-line utility for sending custom TCP/IP packets, used for network testing and security auditing on Unix-like systems."
   },
   {
     "name": "arp-scan",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=arp-scan"
+    "url": "https://packages.debian.org/search?keywords=arp-scan",
+    "description": "arp-scan is a network tool for ARP scanning and fingerprinting, targeting IPv4 networks."
   },
   {
     "name": "iftop",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=iftop"
+    "url": "https://packages.debian.org/search?keywords=iftop",
+    "description": "iftop is a network traffic monitor that displays bandwidth usage on a network interface in real-time."
   },
   {
     "name": "iptraf-ng",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=iptraf-ng"
+    "url": "https://packages.debian.org/search?keywords=iptraf-ng",
+    "description": "iptraf-ng is a network traffic monitor for Linux, providing real-time statistics and analysis of network traffic on IP networks."
   },
   {
     "name": "whois",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=whois"
+    "url": "https://packages.debian.org/search?keywords=whois",
+    "description": "The 'whois' tool is an intelligent WHOIS client used to query WHOIS databases for information about domain names, IP addresses, and other network resources."
   },
   {
     "name": "dnsutils",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=dnsutils"
+    "url": "https://packages.debian.org/search?keywords=dnsutils",
+    "description": "dnsutils provides command-line tools for querying DNS servers, primarily used for network diagnostics and troubleshooting on Unix-like systems."
   },
   {
     "name": "traceroute",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=traceroute"
+    "url": "https://packages.debian.org/search?keywords=traceroute",
+    "description": "traceroute traces the route taken by packets over an IPv4/IPv6 network, useful for diagnosing network connectivity issues."
   },
   {
     "name": "netcat-openbsd",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=netcat-openbsd"
+    "url": "https://packages.debian.org/search?keywords=netcat-openbsd",
+    "description": "netcat-openbsd: TCP/IP swiss army knife for network communication and data transfer."
   },
   {
     "name": "socat",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=socat"
+    "url": "https://packages.debian.org/search?keywords=socat",
+    "description": "socat is a versatile network utility for bidirectional data transfer between two endpoints, supporting multiple protocols and platforms."
   },
   {
     "name": "p0f",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=p0f"
+    "url": "https://packages.debian.org/search?keywords=p0f",
+    "description": "Passive OS fingerprinting tool for network traffic analysis."
   },
   {
     "name": "ncrack",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=ncrack"
+    "url": "https://packages.debian.org/search?keywords=ncrack",
+    "description": "Ncrack is a high-speed network authentication cracking tool targeting various protocols including SSH, FTP, and VNC."
   },
   {
     "name": "sslscan",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=sslscan"
+    "url": "https://packages.debian.org/search?keywords=sslscan",
+    "description": "sslscan tests SSL/TLS enabled services to discover supported cipher suites."
   },
   {
     "name": "nbtscan",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=nbtscan"
+    "url": "https://packages.debian.org/search?keywords=nbtscan",
+    "description": "nbtscan is a network scanning tool that searches for NetBIOS information on a network."
   },
   {
     "name": "onesixtyone",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=onesixtyone"
+    "url": "https://packages.debian.org/search?keywords=onesixtyone",
+    "description": "onesixtyone is a fast and simple SNMP scanner for network discovery and security auditing."
   },
   {
     "name": "snmp",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=snmp"
+    "url": "https://packages.debian.org/search?keywords=snmp",
+    "description": "SNMP (Simple Network Management Protocol) applications for network management and monitoring."
   },
   {
     "name": "smbclient",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=smbclient"
+    "url": "https://packages.debian.org/search?keywords=smbclient",
+    "description": "smbclient is a command-line tool for accessing SMB/CIFS shares on Unix-like systems."
   },
   {
     "name": "iodine",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=iodine"
+    "url": "https://packages.debian.org/search?keywords=iodine",
+    "description": "iodine is a tool for tunneling IPv4 data through a DNS server, primarily used for bypassing network censorship and enhancing privacy."
   },
   {
     "name": "redsocks",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=redsocks"
+    "url": "https://packages.debian.org/search?keywords=redsocks",
+    "description": "redsocks is a TCP connection redirector to a SOCKS or HTTPS proxy server, suitable for Linux."
   },
   {
     "name": "stunnel4",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=stunnel4"
+    "url": "https://packages.debian.org/search?keywords=stunnel4",
+    "description": "stunnel4 is a universal SSL tunnel for network daemons, enabling secure communication over insecure networks."
   },
   {
     "name": "zmap",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=zmap"
+    "url": "https://packages.debian.org/search?keywords=zmap",
+    "description": "ZMap is a fast single packet network scanner designed for Internet-wide network surveys."
   },
   {
     "name": "wireshark-common",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=wireshark-common"
+    "url": "https://packages.debian.org/search?keywords=wireshark-common",
+    "description": "Wireshark-common provides common files for the network traffic analyzer Wireshark, supporting multiple architectures and protocols."
   },
   {
     "name": "tshark",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=tshark"
+    "url": "https://packages.debian.org/search?keywords=tshark",
+    "description": "tshark is a network traffic analyzer for capturing and analyzing network packets, primarily used for troubleshooting and security analysis on various platforms and protocols."
   },
   {
     "name": "sslsplit",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=sslsplit"
+    "url": "https://packages.debian.org/search?keywords=sslsplit",
+    "description": "sslsplit is a transparent SSL/TLS interception tool for analyzing encrypted network traffic."
   },
   {
     "name": "tor",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=tor"
+    "url": "https://packages.debian.org/search?keywords=tor",
+    "description": "Tor is an anonymizing overlay network for TCP, enabling users to route their internet traffic through multiple volunteer-operated relays to protect privacy and anonymity."
   },
   {
     "name": "proxychains4",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=proxychains4"
+    "url": "https://packages.debian.org/search?keywords=proxychains4",
+    "description": "proxychains4 redirects connections through SOCKS or HTTP proxies, enhancing network security and anonymity."
   },
   {
     "name": "macchanger",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=macchanger"
+    "url": "https://packages.debian.org/search?keywords=macchanger",
+    "description": "macchanger is a utility for manipulating the MAC address of network interfaces on Linux systems."
   },
   {
     "name": "fping",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=fping"
+    "url": "https://packages.debian.org/search?keywords=fping",
+    "description": "fping is a network tool that sends ICMP ECHO_REQUEST packets to multiple hosts concurrently, reporting their reachability and response times."
   },
   {
     "name": "ngrep",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=ngrep"
+    "url": "https://packages.debian.org/search?keywords=ngrep",
+    "description": "ngrep is a network grep tool for filtering and searching network traffic based on patterns."
   },
   {
     "name": "dns2tcp",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=dns2tcp"
+    "url": "https://packages.debian.org/search?keywords=dns2tcp",
+    "description": "dns2tcp is a TCP-over-DNS tunnel server and client for Linux."
   },
   {
     "name": "tcpflow",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=tcpflow"
+    "url": "https://packages.debian.org/search?keywords=tcpflow",
+    "description": "tcpflow is a command-line tool for capturing and analyzing TCP/IP traffic, useful for network debugging and analysis."
   },
   {
     "name": "tcpreplay",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=tcpreplay"
+    "url": "https://packages.debian.org/search?keywords=tcpreplay",
+    "description": "tcpreplay is a tool to replay saved tcpdump files at arbitrary speeds, primarily used for network testing and analysis."
   },
   {
     "name": "netsniff-ng",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=netsniff-ng"
+    "url": "https://packages.debian.org/search?keywords=netsniff-ng",
+    "description": "netsniff-ng is a Linux network packet sniffer toolkit for capturing and analyzing network traffic."
   },
   {
     "name": "arping",
     "method": "apt",
     "module": "networking",
-    "url": "https://packages.debian.org/search?keywords=arping"
+    "url": "https://packages.debian.org/search?keywords=arping",
+    "description": "arping sends IP and/or ARP pings to the MAC address, useful for network diagnostics and security."
   },
   {
     "name": "sshuttle",
     "method": "pipx",
     "module": "networking",
-    "url": "https://pypi.org/project/sshuttle/"
+    "url": "https://pypi.org/project/sshuttle/",
+    "description": "sshuttle is a transparent proxy server that forwards traffic over SSH, enabling secure remote network access without requiring admin privileges. It works on Linux and MacOS and supports DNS tunneling."
   },
   {
     "name": "smbmap",
     "method": "pipx",
     "module": "networking",
-    "url": "https://pypi.org/project/smbmap/"
+    "url": "https://pypi.org/project/smbmap/",
+    "description": "smbmap is a Python tool for enumerating SMB shares and files, primarily used for penetration testing and network auditing."
   },
   {
     "name": "mitmproxy",
     "method": "pipx",
     "module": "networking",
-    "url": "https://pypi.org/project/mitmproxy/"
+    "url": "https://pypi.org/project/mitmproxy/",
+    "description": "mitmproxy is an interactive, SSL/TLS-capable intercepting proxy for HTTP/1, HTTP/2, and WebSockets, available for MacOS, Windows, and POSIX systems."
   },
   {
     "name": "chisel",
     "method": "go",
     "module": "networking",
-    "url": "https://github.com/jpillora/chisel"
+    "url": "https://github.com/jpillora/chisel",
+    "description": "Chisel is a fast TCP/UDP tunnel over HTTP, secured via SSH, for passing through firewalls and providing a secure endpoint into your network."
   },
   {
     "name": "bettercap",
     "method": "git",
     "module": "networking",
-    "url": "https://github.com/bettercap/bettercap"
+    "url": "https://github.com/bettercap/bettercap",
+    "description": "bettercap is a versatile, extensible framework for WiFi, Bluetooth, CAN-bus, HID, and Ethernet network reconnaissance and MITM attacks, suitable for security researchers and red teamers."
   },
   {
     "name": "dnscat2",
     "method": "git",
     "module": "networking",
-    "url": "https://github.com/iagox86/dnscat2"
+    "url": "https://github.com/iagox86/dnscat2",
+    "description": "dnscat2 is a DNS tunnel for encrypted command-and-control channels, supporting any data and running on various platforms."
   },
   {
     "name": "nipe",
     "method": "git",
     "module": "networking",
-    "url": "https://github.com/htrgouvea/nipe"
+    "url": "https://github.com/htrgouvea/nipe",
+    "description": "Nipe is a Perl engine that routes traffic through the Tor network to anonymize internet activity."
   },
   {
     "name": "PRET",
     "method": "git",
     "module": "networking",
-    "url": "https://github.com/RUB-NDS/PRET"
+    "url": "https://github.com/RUB-NDS/PRET",
+    "description": "PRET is a Python-based toolkit for testing printer security, supporting PostScript, PJL, and PCL. It facilitates communication between the user and the printer, allowing for various attacks and fuzzing operations. Target platform: Network printers and USB printers."
   },
   {
     "name": "pwnat",
     "method": "git",
     "module": "networking",
-    "url": "https://github.com/samyk/pwnat"
+    "url": "https://github.com/samyk/pwnat",
+    "description": "pwnat is a tool that allows clients behind NATs to communicate with servers behind separate NATs without port forwarding, DMZ, or third-party involvement, by exploiting NAT translation tables."
   },
   {
     "name": "ligolo-proxy",
     "method": "binary",
     "module": "networking",
-    "url": "https://github.com/nicocha30/ligolo-ng"
+    "url": "https://github.com/nicocha30/ligolo-ng",
+    "description": "Ligolo-ng is a simple, lightweight tunneling tool that uses TUN interfaces for establishing reverse TCP/TLS connections, suitable for pentesting and post-exploitation on Windows, Linux, MacOS, and BSD."
   },
   {
     "name": "ligolo-agent",
     "method": "binary",
     "module": "networking",
-    "url": "https://github.com/nicocha30/ligolo-ng"
+    "url": "https://github.com/nicocha30/ligolo-ng",
+    "description": "Ligolo-agent is a lightweight tunneling tool using TUN interfaces for pentesting and post-exploitation, supporting Windows, Linux, MacOS, and BSD."
   },
   {
     "name": "frpc",
     "method": "binary",
     "module": "networking",
-    "url": "https://github.com/fatedier/frp"
+    "url": "https://github.com/fatedier/frp",
+    "description": "Client binary for frp (Fast Reverse Proxy) that runs behind NAT or firewalls to forward local TCP, UDP, HTTP, or HTTPS ports to an frps server."
   },
   {
     "name": "frps",
     "method": "binary",
     "module": "networking",
-    "url": "https://github.com/fatedier/frp"
+    "url": "https://github.com/fatedier/frp",
+    "description": "frps is a fast reverse proxy for exposing local servers behind NAT or firewalls to the internet, supporting TCP, UDP, HTTP, and HTTPS protocols."
   },
   {
     "name": "rustscan",
     "method": "cargo",
     "module": "networking",
-    "url": "https://crates.io/crates/rustscan"
+    "url": "https://crates.io/crates/rustscan",
+    "description": "RustScan is a fast port scanner built in Rust, designed for quick network discovery and security auditing."
   },
   {
     "name": "dnsenum",
     "method": "apt",
     "module": "recon",
-    "url": "https://packages.debian.org/search?keywords=dnsenum"
+    "url": "https://packages.debian.org/search?keywords=dnsenum",
+    "description": "dnsenum is a tool to enumerate domain DNS information, primarily used for network security assessments."
   },
   {
     "name": "dnstwist",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/dnstwist/"
+    "url": "https://pypi.org/project/dnstwist/",
+    "description": "dnstwist is a domain name permutation engine for detecting homograph phishing attacks, typo squatting, and brand impersonation. It is a Python tool that can be used on any platform supporting Python 3."
   },
   {
     "name": "holehe",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/holehe/"
+    "url": "https://pypi.org/project/holehe/",
+    "description": "holehe is a Python tool to check if an email is used on various websites and retrieve information if the password is forgotten."
   },
   {
     "name": "h8mail",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/h8mail/"
+    "url": "https://pypi.org/project/h8mail/",
+    "description": "h8mail is a Python tool for email OSINT and password breach hunting, using various breach and reconnaissance services, or local data. It supports email pattern matching, local searches, and output to CSV. Compatible with the Breached Compilation torrent scripts and available via pip."
   },
   {
     "name": "social-analyzer",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/social-analyzer/"
+    "url": "https://pypi.org/project/social-analyzer/",
+    "description": "Social-Analyzer is a Python tool for analyzing and finding a person's profile across 300+ social media websites, using string analysis and detection modules with a rating mechanism from 0 to 100. It's useful for investigating suspicious or malicious activities and is used by some law enforcement agencies."
   },
   {
     "name": "maigret",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/maigret/"
+    "url": "https://pypi.org/project/maigret/",
+    "description": "Maigret is a command-line tool for collecting information about a person by username from thousands of websites, supporting 3,000+ sites and offering AI analysis."
   },
   {
     "name": "ghunt",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/ghunt/"
+    "url": "https://pypi.org/project/ghunt/",
+    "description": "GHunt is an offensive Google framework for OSINT, email, Gaia ID, Drive file/folder, and geolocation information retrieval. It supports CLI and Python library usage, with JSON export and browser extension for ease of login. Target platform: Python 3.10+."
   },
   {
     "name": "shodan",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/shodan/"
+    "url": "https://pypi.org/project/shodan/",
+    "description": "Shodan is a search engine for Internet-connected devices, providing developers with access to Shodan's data to automate tasks and integrate into existing tools. It supports Python 2.6+ and 3.4+."
   },
   {
     "name": "socialscan",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/socialscan/"
+    "url": "https://pypi.org/project/socialscan/",
+    "description": "socialscan is an open-source intelligence tool for checking email address and username availability on online platforms, offering 100% accuracy and fast searches through concurrent queries."
   },
   {
     "name": "maltego-trx",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/maltego-trx/"
+    "url": "https://pypi.org/project/maltego-trx/",
+    "description": "Maltego TRX is a Python library for developing Maltego transforms, enabling users to create custom data connectors and enrichment tools for cybersecurity analysis."
   },
   {
     "name": "dnsrecon",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/dnsrecon/"
+    "url": "https://pypi.org/project/dnsrecon/",
+    "description": "dnsrecon is a DNS enumeration tool for gathering information about DNS records and configurations."
   },
   {
     "name": "sherlock-project",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/sherlock-project/"
+    "url": "https://pypi.org/project/sherlock-project/",
+    "description": "Sherlock-project is a Python tool to search for social media accounts by username across 400+ platforms."
   },
   {
     "name": "bbot",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/bbot/"
+    "url": "https://pypi.org/project/bbot/",
+    "description": "bbot is a multipurpose OSINT scanner for hackers, automating reconnaissance, bug bounties, and ASM."
   },
   {
     "name": "onionsearch",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/onionsearch/"
+    "url": "https://pypi.org/project/onionsearch/",
+    "description": "onionsearch 1.3 is a Python script that scrapes URLs from various .onion search engines."
   },
   {
     "name": "crosslinked",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/crosslinked/"
+    "url": "https://pypi.org/project/crosslinked/",
+    "description": "Crosslinked is a Python library for creating and managing cross-site request forgery (CSRF) tokens, primarily used in web applications to protect against CSRF attacks. It supports Python 3 and is compatible with various web frameworks."
   },
   {
     "name": "toutatis",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/toutatis/"
+    "url": "https://pypi.org/project/toutatis/",
+    "description": "toutatis is a Python tool to retrieve private information from Instagram accounts via API, targeting developers and security researchers."
   },
   {
     "name": "ssh-audit",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/ssh-audit/"
+    "url": "https://pypi.org/project/ssh-audit/",
+    "description": "ssh-audit is a tool for auditing SSH server and client configurations, providing security information and recommendations."
   },
   {
     "name": "parsero",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/parsero/"
+    "url": "https://pypi.org/project/parsero/",
+    "description": "Parsero is a free script written in Python which reads the Robots.txt file of a web server and looks at the Disallow entries, helps with recon."
   },
   {
     "name": "emailharvester",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/emailharvester/"
+    "url": "https://pypi.org/project/emailharvester/",
+    "description": "EmailHarvester 2.0.1 is a Python tool to retrieve domain email addresses from search engines like Google, Bing, and Yahoo, with options to export results and use custom User-Agent strings."
   },
   {
     "name": "maryam",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/maryam/"
+    "url": "https://pypi.org/project/maryam/",
+    "description": "maryam is a Python library for information gathering and reconnaissance on social media platforms."
   },
   {
     "name": "osrframework",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/osrframework/"
+    "url": "https://pypi.org/project/osrframework/",
+    "description": "OSRFramework is a set of AGPLv3+ OSINT tools for online research, developed by i3visio analysts."
   },
   {
     "name": "censys",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/censys/"
+    "url": "https://pypi.org/project/censys/",
+    "description": "Censys is a comprehensive search engine for internet assets, allowing users to discover and analyze information about websites, services, and devices on the internet."
   },
   {
     "name": "ignorant",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/ignorant/"
+    "url": "https://pypi.org/project/ignorant/",
+    "description": "ignorant 1.2 checks if a phone number is used on Snapchat, instagram etc."
   },
   {
     "name": "instaloader",
     "method": "pipx",
     "module": "recon",
-    "url": "https://pypi.org/project/instaloader/"
+    "url": "https://pypi.org/project/instaloader/",
+    "description": "Instaloader is a Python script for downloading Instagram content, including pictures, videos, and metadata."
   },
   {
     "name": "recon-ng",
     "method": "git",
     "module": "recon",
-    "url": "https://github.com/lanmaster53/recon-ng"
+    "url": "https://github.com/lanmaster53/recon-ng",
+    "description": "Recon-ng is an open-source intelligence gathering tool for conducting web-based reconnaissance quickly and thoroughly, similar to the Metasploit Framework but focused on open source data."
   },
   {
     "name": "subfinder",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/projectdiscovery/subfinder"
+    "url": "https://github.com/projectdiscovery/subfinder",
+    "description": "subfinder is a fast, passive subdomain enumeration tool using curated online sources, optimized for speed and resource efficiency."
   },
   {
     "name": "amass",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/owasp-amass/amass"
+    "url": "https://github.com/owasp-amass/amass",
+    "description": "Amass is an open-source tool for network mapping and external asset discovery using DNS enumeration and OSINT techniques."
   },
   {
     "name": "waybackurls",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/tomnomnom/waybackurls"
+    "url": "https://github.com/tomnomnom/waybackurls",
+    "description": "Fetches all URLs known to the Wayback Machine for a given domain."
   },
   {
     "name": "gau",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/lc/gau"
+    "url": "https://github.com/lc/gau",
+    "description": "gau fetches known URLs from AlienVault's OTX, Wayback Machine, Common Crawl, and URLScan for domain enumeration and security research."
   },
   {
     "name": "hakrawler",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/hakluke/hakrawler"
+    "url": "https://github.com/hakluke/hakrawler",
+    "description": "hakrawler is a simple, fast web crawler for discovering endpoints and assets within a web application, supporting single URLs, multiple URLs from a file, and subdomain crawling."
   },
   {
     "name": "httprobe",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/tomnomnom/httprobe"
+    "url": "https://github.com/tomnomnom/httprobe",
+    "description": "httprobe is a command-line tool for probing a list of domains to find active HTTP and HTTPS servers. It reads domain names from standard input and outputs the working HTTP and HTTPS URLs. It supports custom ports, concurrency, and timeout settings. Target platform: Unix-like systems. Protocol: HTTP/HTTPS."
   },
   {
     "name": "unfurl",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/tomnomnom/unfurl"
+    "url": "https://github.com/tomnomnom/unfurl",
+    "description": "Unfurl extracts and displays information from URLs provided as input, useful for reconnaissance and analysis."
   },
   {
     "name": "meg",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/tomnomnom/meg"
+    "url": "https://github.com/tomnomnom/meg",
+    "description": "meg is a tool for fetching many paths for many hosts efficiently, designed to avoid overwhelming target systems."
   },
   {
     "name": "puredns",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/d3mondev/puredns"
+    "url": "https://github.com/d3mondev/puredns",
+    "description": "puredns is a fast domain resolver and subdomain bruteforcing tool that accurately filters out wildcard subdomains and DNS poisoned entries using massdns and trusted resolvers."
   },
   {
     "name": "shuffledns",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/projectdiscovery/shuffledns"
+    "url": "https://github.com/projectdiscovery/shuffledns",
+    "description": "shuffledns is a Go wrapper for massdns to enumerate valid subdomains using active bruteforce and resolve subdomains with wildcard handling, supporting easy input-output."
   },
   {
     "name": "github-subdomains",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/gwen001/github-subdomains"
+    "url": "https://github.com/gwen001/github-subdomains",
+    "description": "github-subdomains is a Go tool for finding subdomains on GitHub using provided tokens or an environment variable."
   },
   {
     "name": "hakcheckurl",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/hakluke/hakcheckurl"
+    "url": "https://github.com/hakluke/hakcheckurl",
+    "description": "Takes a list of URLs and returns their HTTP response codes, useful for quickly determining the status of multiple web pages."
   },
   {
     "name": "chaos",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/projectdiscovery/chaos-client"
+    "url": "https://github.com/projectdiscovery/chaos-client",
+    "description": "Chaos Client is a Go tool to communicate with Chaos dataset API for subdomain enumeration and other domain-related queries. It requires a projectdiscovery cloud API key for authentication. Primary use case is for security researchers and penetration testers to gather subdomains and other domain information. Target platform is any system with Go installed. It supports both CLI and library usage."
   },
   {
     "name": "uncover",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/projectdiscovery/uncover"
+    "url": "https://github.com/projectdiscovery/uncover",
+    "description": "uncover is a CLI tool for discovering exposed hosts on the internet using multiple search engines like Shodan, Censys, and FOFA."
   },
   {
     "name": "asnmap",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/projectdiscovery/asnmap"
+    "url": "https://github.com/projectdiscovery/asnmap",
+    "description": "asnmap is a Go CLI and library for quickly mapping organization network ranges using ASN information, supporting ASN, ORG, DNS, and IP lookups with JSON, CSV, and text output formats."
   },
   {
     "name": "mapcidr",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/projectdiscovery/mapcidr"
+    "url": "https://github.com/projectdiscovery/mapcidr",
+    "description": "mapcidr is a utility for performing operations on CIDR ranges, including expansion, slicing, aggregation, and filtering. It supports IPv4 and IPv6 and can be used as a CLI tool or library."
   },
   {
     "name": "alterx",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/projectdiscovery/alterx"
+    "url": "https://github.com/projectdiscovery/alterx",
+    "description": "Fast and customizable subdomain wordlist generator using DSL for subdomain enumeration and pattern mining."
   },
   {
     "name": "dnsx",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/projectdiscovery/dnsx"
+    "url": "https://github.com/projectdiscovery/dnsx",
+    "description": "dnsx is a fast and multi-purpose DNS toolkit for running various DNS queries, including A, AAAA, CNAME, PTR, NS, MX, TXT, SRV, and SOA records, with support for custom resolvers and wildcard filtering."
   },
   {
     "name": "gowitness",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/sensepost/gowitness"
+    "url": "https://github.com/sensepost/gowitness",
+    "description": "gowitness is a web screenshot utility using Chrome Headless for security footprinting and reporting."
   },
   {
     "name": "naabu",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/projectdiscovery/naabu"
+    "url": "https://github.com/projectdiscovery/naabu",
+    "description": "naabu is a fast, reliable port scanner written in Go that performs SYN/CONNECT/UDP scans to enumerate valid ports for hosts, supporting multiple input formats and output options."
   },
   {
     "name": "httpx",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/projectdiscovery/httpx"
+    "url": "https://github.com/projectdiscovery/httpx",
+    "description": "httpx is a fast and multi-purpose HTTP toolkit for running multiple probes using the retryablehttp library, supporting hosts, URLs, and CIDR inputs."
   },
   {
     "name": "commit-stream",
     "method": "go",
     "module": "recon",
-    "url": "https://github.com/x1sec/commit-stream"
+    "url": "https://github.com/x1sec/commit-stream",
+    "description": "commit-stream is a GitHub search tool for code, projects, and people. It allows users to search for repositories, commits, and contributors based on various criteria."
   },
   {
     "name": "metabigor",
