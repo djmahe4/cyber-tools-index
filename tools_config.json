@@ -73,61 +73,71 @@
     "name": "notify",
     "method": "go",
     "module": "misc",
-    "url": "https://github.com/projectdiscovery/notify"
+    "url": "https://github.com/projectdiscovery/notify",
+    "description": "Notify is a Go-based tool for streaming output to various platforms including Slack, Discord, Telegram, and more."
   },
   {
     "name": "pdtm",
     "method": "go",
     "module": "misc",
-    "url": "https://github.com/projectdiscovery/pdtm"
+    "url": "https://github.com/projectdiscovery/pdtm",
+    "description": "pdtm is a Go-based tool for managing open source projects from ProjectDiscovery, supporting installation, update, and removal of projects."
   },
   {
     "name": "SecLists",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/danielmiessler/SecLists"
+    "url": "https://github.com/danielmiessler/SecLists",
+    "description": "SecLists is a comprehensive collection of lists for security assessments, including usernames, passwords, URLs, and fuzzing payloads."
   },
   {
     "name": "PayloadsAllTheThings",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings"
+    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+    "description": "PayloadsAllTheThings is a comprehensive list of useful payloads and bypasses for web application security and penetration testing. It serves as a cheatsheet for ethical hackers and security professionals."
   },
   {
     "name": "InternalAllTheThings",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/swisskyrepo/InternalAllTheThings"
+    "url": "https://github.com/swisskyrepo/InternalAllTheThings",
+    "description": "InternalAllTheThings is a collection of Active Directory and internal penetration testing cheatsheets, providing useful payloads and bypasses for security assessments."
   },
   {
     "name": "PEASS-ng",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/peass-ng/PEASS-ng"
+    "url": "https://github.com/peass-ng/PEASS-ng",
+    "description": "PEASS-ng is a suite of scripts for Linux and Windows to identify local privilege escalation paths, providing detailed information with color-coded output for easy recognition."
   },
   {
     "name": "linux-smart-enumeration",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/diego-treitos/linux-smart-enumeration"
+    "url": "https://github.com/diego-treitos/linux-smart-enumeration",
+    "description": "A Linux enumeration tool for pentesting and CTFs with verbosity levels, focusing on privilege escalation."
   },
   {
     "name": "SUDO_KILLER",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/TH3xACE/SUDO_KILLER"
+    "url": "https://github.com/TH3xACE/SUDO_KILLER",
+    "description": "SUDO_KILLER is a tool for manually exploiting privilege escalation vulnerabilities in the sudo program on Unix-like systems, targeting Linux environments."
   },
   {
     "name": "LaZagne",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/AlessandroZ/LaZagne"
+    "url": "https://github.com/AlessandroZ/LaZagne",
+    "description": "LaZagne is an open-source tool for retrieving passwords from various software on Windows, Linux, and Mac platforms."
   },
   {
     "name": "mimipenguin",
     "method": "git",
     "module": "misc",
-    "url": "https://github.com/huntergregal/mimipenguin"
+    "url": "https://github.com/huntergregal/mimipenguin",
+    "description": "MimiPenguin is a Linux tool to extract login passwords from the current user by analyzing memory and system files, targeting GNOME Keyring and other authentication mechanisms."
   },
   {
     "name": "PyExfil",
