@@ -2383,601 +2383,701 @@
     "name": "masky",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/masky/"
+    "url": "https://pypi.org/project/masky/",
+    "description": "Masky is a Python library and CLI tool for remotely dumping domain user credentials using legitimate Windows and Active Directory features, targeting ADCS."
   },
   {
     "name": "pywhisker",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/pywhisker/"
+    "url": "https://pypi.org/project/pywhisker/",
+    "description": "pywhisker is an unofficial Python tool for manipulating the msDS-KeyCredentialLink attribute of target users/computers to obtain full control, supporting various authentication methods and operating on UNIX-based systems."
   },
   {
     "name": "autobloody",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/autobloody/"
+    "url": "https://pypi.org/project/autobloody/",
+    "description": "autobloody is a Python script for automating the process of sending HTTP requests to test web applications for vulnerabilities."
   },
   {
     "name": "krbjack",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/krbjack/"
+    "url": "https://pypi.org/project/krbjack/",
+    "description": "krbjack is a Kerberos AP-REQ hijacking tool that exploits DNS zone updates to perform man-in-the-middle attacks, targeting Active Directory environments with the ZONE_UPDATE_UNSECURE flag enabled."
   },
   {
     "name": "roadtx",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/roadtx/"
+    "url": "https://pypi.org/project/roadtx/",
+    "description": "roadtx is a Python library for exchanging ROADtools tokens, primarily used in cybersecurity for authentication and authorization processes."
   },
   {
     "name": "pywerview",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/pywerview/"
+    "url": "https://pypi.org/project/pywerview/",
+    "description": "pywerview is a Python script for gathering information from a Windows domain, primarily used for reconnaissance and forensic analysis."
   },
   {
     "name": "pysnaffler",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/pysnaffler/"
+    "url": "https://pypi.org/project/pysnaffler/",
+    "description": "pysnaffler is a Python-based network packet sniffer for capturing and analyzing network traffic."
   },
   {
     "name": "powerview",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/powerview/"
+    "url": "https://pypi.org/project/powerview/",
+    "description": "PowerView.py is a Python script for querying and manipulating Active Directory using LDAP, LDAPS, or GC protocols."
   },
   {
     "name": "aclpwn",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/aclpwn/"
+    "url": "https://pypi.org/project/aclpwn/",
+    "description": "aclpwn is a Python tool for auditing Access Control Lists (ACLs) in network devices, identifying misconfigurations and potential vulnerabilities."
   },
   {
     "name": "netexec",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://github.com/Pennyw0rth/NetExec"
+    "url": "https://github.com/Pennyw0rth/NetExec",
+    "description": "NetExec is an open-source network execution tool for Windows, Linux, and macOS, designed for penetration testing and security assessments. It supports various protocols and features for active directory enumeration and exploitation."
   },
   {
     "name": "ldeep",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/ldeep/"
+    "url": "https://pypi.org/project/ldeep/",
+    "description": "ldeep is a network scanner for identifying open ports and services on a target host."
   },
   {
     "name": "smbclientng",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/smbclientng/"
+    "url": "https://pypi.org/project/smbclientng/",
+    "description": "smbclientng is a Python library for accessing SMB/CIFS file shares, enabling file operations over the network."
   },
   {
     "name": "ldapsearchad",
     "method": "pipx",
     "module": "enterprise",
-    "url": "https://pypi.org/project/ldapsearchad/"
+    "url": "https://pypi.org/project/ldapsearchad/",
+    "description": "ldapsearchad is a Python library for searching Active Directory using LDAP."
   },
   {
     "name": "godap",
     "method": "go",
     "module": "enterprise",
-    "url": "https://github.com/Macmod/godap"
+    "url": "https://github.com/Macmod/godap",
+    "description": "godap is a terminal user interface (TUI) for LDAP, supporting authentication, object exploration, and management in AD environments."
   },
   {
     "name": "pretender",
     "method": "go",
     "module": "enterprise",
-    "url": "https://github.com/RedTeamPentesting/pretender"
+    "url": "https://github.com/RedTeamPentesting/pretender",
+    "description": "pretender is a Go-based tool for conducting DHCPv6 DNS takeover and mDNS, LLMNR, and NetBIOS-NS spoofing attacks, primarily targeting Windows hosts."
   },
   {
     "name": "evil-winrm",
     "method": "gem",
     "module": "enterprise",
-    "url": "https://rubygems.org/gems/evil-winrm"
+    "url": "https://rubygems.org/gems/evil-winrm",
+    "description": "evil-winrm is a Ruby-based WinRM shell for hacking and penetration testing, targeting Windows platforms."
   },
   {
     "name": "Responder",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/lgandx/Responder"
+    "url": "https://github.com/lgandx/Responder",
+    "description": "Responder is a network security tool that captures credentials by poisoning LLMNR, NBT-NS, and MDNS requests, supporting protocols like HTTP, SMB, MSSQL, FTP, LDAP, and Kerberos."
   },
   {
     "name": "enum4linux-ng",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/cddmp/enum4linux-ng"
+    "url": "https://github.com/cddmp/enum4linux-ng",
+    "description": "enum4linux-ng is a Python-based tool for enumerating information from Windows and Samba systems, supporting YAML and JSON export, and multiple authentication methods."
   },
   {
     "name": "linWinPwn",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/lefayjey/linWinPwn"
+    "url": "https://github.com/lefayjey/linWinPwn",
+    "description": "linWinPwn is a bash script for Active Directory penetration testing, offering enumeration, exploitation, and password dumping functionalities using various tools like Impacket, BloodHound, and Kerbrute."
   },
   {
     "name": "PCredz",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/lgandx/PCredz"
+    "url": "https://github.com/lgandx/PCredz",
+    "description": "PCredz extracts credentials and sensitive information from pcap files or live network traffic, targeting protocols like HTTP, SMTP, FTP, and SNMP."
   },
   {
     "name": "krbrelayx",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/dirkjanm/krbrelayx"
+    "url": "https://github.com/dirkjanm/krbrelayx",
+    "description": "Krbrelayx is a toolkit for abusing Kerberos, enabling Kerberos relaying and exploiting unconstrained delegation."
   },
   {
     "name": "spraykatz",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/aas-n/spraykatz"
+    "url": "https://github.com/aas-n/spraykatz",
+    "description": "Spraykatz is a credentials gathering tool for Windows machines and large Active Directory environments, automating remote procdump and parsing of lsass process."
   },
   {
     "name": "azurehound",
     "method": "source",
     "module": "enterprise",
-    "url": "https://github.com/BloodHoundAD/AzureHound"
+    "url": "https://github.com/BloodHoundAD/AzureHound",
+    "description": "AzureHound is a tool for collecting Azure data to feed into BloodHound for network visualization and analysis."
   },
   {
     "name": "dfscoerce",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/Wh04m1001/dfscoerce"
+    "url": "https://github.com/Wh04m1001/dfscoerce",
+    "description": "DFSCoerce is a proof-of-concept tool for exploiting MS-DFSNM coerce authentication using NetrDfsRemoveStdRoot and NetrDfsAddStdRoot methods, targeting Windows environments."
   },
   {
     "name": "petitpotam",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/topotam/PetitPotam"
+    "url": "https://github.com/topotam/PetitPotam",
+    "description": "PetitPotam is a proof-of-concept tool to exploit MS-EFSRPC for authentication coercion on Windows hosts."
   },
   {
     "name": "shadowcoerce",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/ShutdownRepo/shadowcoerce"
+    "url": "https://github.com/ShutdownRepo/shadowcoerce",
+    "description": "ShadowCoerce is a proof-of-concept tool for abusing MS-FSRVP to coerce authentication on a target server, requiring the 'File Server VSS Agent Service' to be enabled."
   },
   {
     "name": "noPac",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/Ridter/noPac"
+    "url": "https://github.com/Ridter/noPac",
+    "description": "noPac exploits CVE-2021-42278 and CVE-2021-42287 to impersonate a Domain Administrator from a standard domain user, targeting Windows domain environments."
   },
   {
     "name": "zerologon",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/SecuraBV/CVE-2020-1472"
+    "url": "https://github.com/SecuraBV/CVE-2020-1472",
+    "description": "Zerologon is a Python script using Impacket to test for the Zerologon exploit (CVE-2020-1472), targeting domain controllers for Netlogon authentication bypass."
   },
   {
     "name": "ntlm_theft",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/Greenwolf/ntlm_theft"
+    "url": "https://github.com/Greenwolf/ntlm_theft",
+    "description": "ntlm_theft generates NTLMv2 hash theft files for phishing attacks targeting SMB and internal networks."
   },
   {
     "name": "ntlmv1-multi",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/evilmog/ntlmv1-multi"
+    "url": "https://github.com/evilmog/ntlmv1-multi",
+    "description": "ntlmv1-multi formats NTLMv1 challenge responses for hashcat mode 14000, supporting NTLMv1, NTLMv1-ESS, and MSCHAPv2 hashes."
   },
   {
     "name": "PassTheCert",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/AlmondOffSec/PassTheCert"
+    "url": "https://github.com/AlmondOffSec/PassTheCert",
+    "description": "PassTheCert is a proof-of-concept tool that allows authenticating to an LDAP/S server with a certificate through Schannel, enabling authentication when PKINIT is not supported."
   },
   {
     "name": "pkinittools",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/dirkjanm/PKINITtools"
+    "url": "https://github.com/dirkjanm/PKINITtools",
+    "description": "pkinittools: A set of Python scripts for Kerberos PKINIT and relaying to AD CS, enabling TGT requests and NT hash extraction."
   },
   {
     "name": "privexchange",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/dirkjanm/PrivExchange"
+    "url": "https://github.com/dirkjanm/PrivExchange",
+    "description": "PrivExchange is a proof-of-concept tool for exploiting Exchange Web Services to escalate privileges to Domain Admin."
   },
   {
     "name": "GPOddity",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/synacktiv/GPOddity"
+    "url": "https://github.com/synacktiv/GPOddity",
+    "description": "GPOddity automates GPO attack vectors through NTLM relaying, targeting vulnerable Group Policy Objects."
   },
   {
     "name": "gmsadumper",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/micahvandeusen/gMSADumper"
+    "url": "https://github.com/micahvandeusen/gMSADumper",
+    "description": "gMSADumper reads and parses gMSA password blobs if accessible, supporting basic, pass-the-hash, and Kerberos authentication."
   },
   {
     "name": "ExtractBitlockerKeys",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/p0dalirius/ExtractBitlockerKeys"
+    "url": "https://github.com/p0dalirius/ExtractBitlockerKeys",
+    "description": "ExtractBitlockerKeys is a Python and PowerShell script for extracting BitLocker recovery keys from a domain using LDAP. It supports multithreading and exports results in JSON, XLSX, and SQLite formats."
   },
   {
     "name": "PXEThief",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/blurbdust/PXEThief"
+    "url": "https://github.com/blurbdust/PXEThief",
+    "description": "PXEThief is a Python tool for extracting passwords from Microsoft Endpoint Configuration Manager (ConfigMgr) during PXE boot, targeting Network Access Accounts and Task Sequence credentials."
   },
   {
     "name": "sccmsecrets",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/synacktiv/SCCMSecrets"
+    "url": "https://github.com/synacktiv/SCCMSecrets",
+    "description": "SCCMSecrets.py is an SCCM policies exploitation tool for credentials harvesting, initial access, and lateral movement."
   },
   {
     "name": "sccmwtf",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/xpn/sccmwtf"
+    "url": "https://github.com/xpn/sccmwtf",
+    "description": "SCCMwtf is a proof-of-concept tool for exploring SCCM in a lab environment, designed for cybersecurity research and analysis."
   },
   {
     "name": "cmloot",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/shelltrail/cmloot"
+    "url": "https://github.com/shelltrail/cmloot",
+    "description": "cmloot.py is a Python script for enumerating Configuration Manager servers, creating inventories, and downloading files from SCCM servers using credentials or pass-the-hash."
   },
   {
     "name": "pywsus",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/GoSecure/pywsus"
+    "url": "https://github.com/GoSecure/pywsus",
+    "description": "pywsus is a Python tool for implementing a malicious WSUS server, enabling MITM attacks on Windows Update clients. It targets Windows platforms using HTTP for WSUS and UpdateServiceUrlAlternate."
   },
   {
     "name": "RemoteMonologue",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/3lp4tr0n/RemoteMonologue"
+    "url": "https://github.com/3lp4tr0n/RemoteMonologue",
+    "description": "RemoteMonologue is a Windows credential harvesting tool that leverages DCOM for NTLM authentication coercion, enabling remote user compromise and credential spraying."
   },
   {
     "name": "roastinthemiddle",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/Tw1sm/RITM"
+    "url": "https://github.com/Tw1sm/RITM",
+    "description": "RITM is a Python tool for performing ARP spoofing and Kerberoasting attacks, targeting Windows environments."
   },
   {
     "name": "lnkup",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/Plazmaz/lnkUp"
+    "url": "https://github.com/Plazmaz/lnkUp",
+    "description": "lnkup generates malicious LNK file payloads for data exfiltration, targeting Windows."
   },
   {
     "name": "ruler",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/sensepost/ruler"
+    "url": "https://github.com/sensepost/ruler",
+    "description": "Ruler is a tool for remote Exchange server abuse, supporting MAPI/HTTP and RPC/HTTP protocols, enabling user enumeration, rule creation, GAL dump, and VBScript execution through Outlook features."
   },
   {
     "name": "bqm",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/Acceis/bqm"
+    "url": "https://github.com/Acceis/bqm",
+    "description": "BQM (Bloodhound Query Merger) deduplicates and merges custom BloodHound queries from different datasets into a single customqueries.json file."
   },
   {
     "name": "cyperoth",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/seajaysec/cypheroth"
+    "url": "https://github.com/seajaysec/cypheroth",
+    "description": "Cypheroth is a bash script that automates running Cypher queries against Bloodhound's Neo4j backend and saves output to spreadsheets. It is primarily used by cybersecurity professionals for active directory assessments on Linux, macOS, and Windows."
   },
   {
     "name": "abuseACL",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/AetherBlack/abuseACL"
+    "url": "https://github.com/AetherBlack/abuseACL",
+    "description": "abuseACL is a Python script to automatically list vulnerable Windows ACEs/ACLs using LDAP."
   },
   {
     "name": "asrepcatcher",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/Yaxxine7/ASRepCatcher"
+    "url": "https://github.com/Yaxxine7/ASRepCatcher",
+    "description": "ASRepCatcher uses ARP spoofing to intercept AS-REP Kerberos messages from domain clients, extracting hashes for offline cracking. Targets all users on the same VLAN, regardless of Kerberos pre-authentication settings. Supports relay and listen modes."
   },
   {
     "name": "conpass",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/login-securite/conpass"
+    "url": "https://github.com/login-securite/conpass",
+    "description": "Continuous password spraying tool for Active Directory, targeting domain policies and avoiding lockouts."
   },
   {
     "name": "freeipscanner",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/scrt/freeipscanner"
+    "url": "https://github.com/scrt/freeipscanner",
+    "description": "freeipscanner is a bash script that identifies stale ADIDNS entries on a local subnet by comparing DNS names with IP addresses that do not respond to arping requests. It is useful for network administrators to clean up unused DNS records. Target platform: Linux. Protocol: ARP, DNS."
   },
   {
     "name": "goldencopy",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/Dramelac/GoldenCopy"
+    "url": "https://github.com/Dramelac/GoldenCopy",
+    "description": "GoldenCopy copies user properties and groups from Neo4j (Bloodhound) to create identical golden tickets for mimikatz or ticketer."
   },
   {
     "name": "keytabextract",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/sosdave/KeyTabExtract"
+    "url": "https://github.com/sosdave/KeyTabExtract",
+    "description": "KeyTabExtract is a utility to extract information from .keytab files, useful for Linux Kerberos authentication. It outputs realm, service principal, encryption type, and NTLM hash."
   },
   {
     "name": "ldaprelayscan",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/zyn3rgy/LdapRelayScan"
+    "url": "https://github.com/zyn3rgy/LdapRelayScan",
+    "description": "ldaprelayscan checks for LDAP protections regarding NTLM authentication relay on Domain Controllers, supporting LDAPS and LDAP protocols."
   },
   {
     "name": "LDAPWordlistHarvester",
     "method": "git",
     "module": "enterprise",
-    "url": "https://github.com/p0dalirius/pyLDAPWordlistHarvester"
+    "url": "https://github.com/p0dalirius/pyLDAPWordlistHarvester",
+    "description": "LDAPWordlistHarvester is a Python tool to generate a wordlist from LDAP information for cracking domain passwords."
   },
   {
     "name": "rusthound",
     "method": "source",
     "module": "enterprise",
-    "url": "https://github.com/NH-RED-TEAM/RustHound"
+    "url": "https://github.com/NH-RED-TEAM/RustHound",
+    "description": "RustHound is a cross-platform BloodHound collector tool written in Rust, compatible with Linux, Windows, and macOS. It generates JSON files for analyzing with BloodHound."
   },
   {
     "name": "rusthound-ce",
     "method": "source",
     "module": "enterprise",
-    "url": "https://github.com/g0h4n/RustHound-CE"
+    "url": "https://github.com/g0h4n/RustHound-CE",
+    "description": "RustHound-CE is a cross-platform BloodHound collector tool written in Rust, compatible with Linux, Windows, and macOS, using LDAP(S) or ADWS for Active Directory data ingestion."
   },
   {
     "name": "GoExec",
     "method": "source",
     "module": "enterprise",
-    "url": "https://github.com/FalconOpsLLC/goexec"
+    "url": "https://github.com/FalconOpsLLC/goexec",
+    "description": "GoExec is a Windows remote execution multitool using various methods like DCOM, WMI, SCMR, and TSCH for lateral movement and remote access."
   },
   {
     "name": "GoMapEnum",
     "method": "source",
     "module": "enterprise",
-    "url": "https://github.com/nodauf/GoMapEnum"
+    "url": "https://github.com/nodauf/GoMapEnum",
+    "description": "GoMapEnum is a tool for user enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams, and LinkedIn."
   },
   {
     "name": "gosecretsdump",
     "method": "source",
     "module": "enterprise",
-    "url": "https://github.com/c-sto/gosecretsdump"
+    "url": "https://github.com/c-sto/gosecretsdump",
+    "description": "gosecretsdump is a fast NTDS.dit file parser and secrets dumper for Windows environments, using Go language for improved performance compared to Impacket's secretsdump.py."
   },
   {
     "name": "kerbrute",
     "method": "binary",
     "module": "enterprise",
-    "url": "https://github.com/ropnop/kerbrute"
+    "url": "https://github.com/ropnop/kerbrute",
+    "description": "Kerbrute is a tool for performing Kerberos pre-authentication bruteforcing to enumerate valid Active Directory accounts."
   },
   {
     "name": "bloodhound-ce",
     "method": "docker",
     "module": "enterprise",
-    "url": "https://hub.docker.com/r/specterops/bloodhound"
+    "url": "https://hub.docker.com/r/specterops/bloodhound",
+    "description": "BloodHound-ce is an open-source tool for visualizing and analyzing Active Directory and Azure environment relationships, using graph theory to identify attack paths and privilege relationships."
   },
   {
     "name": "aircrack-ng",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=aircrack-ng"
+    "url": "https://packages.debian.org/search?keywords=aircrack-ng",
+    "description": "Aircrack-ng is a suite of tools for wireless network security auditing, primarily used for cracking WEP and WPA keys."
   },
   {
     "name": "reaver",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=reaver"
+    "url": "https://packages.debian.org/search?keywords=reaver",
+    "description": "Reaver is a brute force attack tool targeting the Wi-Fi Protected Setup (WPS) PIN number for WPA/WPA2 networks."
   },
   {
     "name": "kismet",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=kismet"
+    "url": "https://packages.debian.org/search?keywords=kismet",
+    "description": "Kismet is a wireless network detector, sniffer, and intrusion detection system."
   },
   {
     "name": "pixiewps",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=pixiewps"
+    "url": "https://packages.debian.org/search?keywords=pixiewps",
+    "description": "Offline WPS password brute-forcing tool for various platforms."
   },
   {
     "name": "bully",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=bully"
+    "url": "https://packages.debian.org/search?keywords=bully",
+    "description": "Bully is a C-based implementation of the WPS brute force attack targeting various platforms and architectures."
   },
   {
     "name": "iw",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=iw"
+    "url": "https://packages.debian.org/search?keywords=iw",
+    "description": "iw is a command-line tool for configuring Linux wireless devices."
   },
   {
     "name": "wireless-tools",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=wireless-tools"
+    "url": "https://packages.debian.org/search?keywords=wireless-tools",
+    "description": "wireless-tools: Linux Wireless Extensions manipulation utilities for network configuration and management."
   },
   {
     "name": "rfkill",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=rfkill"
+    "url": "https://packages.debian.org/search?keywords=rfkill",
+    "description": "rfkill is a command-line tool for managing wireless devices, enabling or disabling them."
   },
   {
     "name": "horst",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=horst"
+    "url": "https://packages.debian.org/search?keywords=horst",
+    "description": "Horst is a highly optimized radio scanning tool for Linux."
   },
   {
     "name": "bluez",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=bluez"
+    "url": "https://packages.debian.org/search?keywords=bluez",
+    "description": "Bluez is a Linux daemon for Bluetooth protocol stack, providing tools for managing Bluetooth devices and connections."
   },
   {
     "name": "spooftooph",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=spooftooph"
+    "url": "https://packages.debian.org/search?keywords=spooftooph",
+    "description": "spooftooph is a network security tool for detecting and preventing IP spoofing attacks."
   },
   {
     "name": "gnuradio",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=gnuradio"
+    "url": "https://packages.debian.org/search?keywords=gnuradio",
+    "description": "GNU Radio is a free software development toolkit for software defined radios, enabling the creation of custom radio hardware and software applications."
   },
   {
     "name": "gqrx-sdr",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=gqrx-sdr"
+    "url": "https://packages.debian.org/search?keywords=gqrx-sdr",
+    "description": "gqrx-sdr is a software-defined radio receiver for Linux, supporting various radio protocols and frequency bands."
   },
   {
     "name": "mdk4",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=mdk4"
+    "url": "https://packages.debian.org/search?keywords=mdk4",
+    "description": "mdk4 is a wireless attack tool for IEEE 802.11 networks, primarily used for security testing and auditing."
   },
   {
     "name": "hcxtools",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=hcxtools"
+    "url": "https://packages.debian.org/search?keywords=hcxtools",
+    "description": "hcxtools: Tools for converting captures to use with hashcat or John the Ripper, supporting various protocols and platforms."
   },
   {
     "name": "cowpatty",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=cowpatty"
+    "url": "https://packages.debian.org/search?keywords=cowpatty",
+    "description": "cowpatty is a brute-force WPA dictionary attack tool for Linux."
   },
   {
     "name": "crackle",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=crackle"
+    "url": "https://packages.debian.org/search?keywords=crackle",
+    "description": "crackle exploits a flaw in the BLE pairing process that allows an attacker to guess or very quickly brute force the Temporary Key. With the TK and other data collected from the pairing process, the Short Term Key and later the Long Term Key can be collected."
   },
   {
     "name": "asleap",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=asleap"
+    "url": "https://packages.debian.org/search?keywords=asleap",
+    "description": "asleap is a tool for capturing and analyzing 802.11 WEP keys using the LEAP authentication protocol."
   },
   {
     "name": "fern-wifi-cracker",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=fern-wifi-cracker"
+    "url": "https://packages.debian.org/search?keywords=fern-wifi-cracker",
+    "description": "Fern-Wifi-Cracker is a graphical tool for auditing Wi-Fi networks, primarily used for security assessments and penetration testing on Linux platforms."
   },
   {
     "name": "hackrf",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=hackrf"
+    "url": "https://packages.debian.org/search?keywords=hackrf",
+    "description": "HackRF is a software-defined radio (SDR) peripheral for radio communication and analysis, supporting various radio protocols and platforms."
   },
   {
     "name": "hcxdumptool",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=hcxdumptool"
+    "url": "https://packages.debian.org/search?keywords=hcxdumptool",
+    "description": "hcxdumptool is a small tool to capture packets from WLAN devices, primarily used for security testing and analysis."
   },
   {
     "name": "mfcuk",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=mfcuk"
+    "url": "https://packages.debian.org/search?keywords=mfcuk",
+    "description": "mfcuk is a command-line tool for MiFare Classic smartcard cloning and analysis, targeting the MiFare Classic protocol on various platforms."
   },
   {
     "name": "mfoc",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=mfoc"
+    "url": "https://packages.debian.org/search?keywords=mfoc",
+    "description": "mfoc is a command-line tool for offline cracking of MIFARE Classic RFID cards."
   },
   {
     "name": "rtl-433",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=rtl-433"
+    "url": "https://packages.debian.org/search?keywords=rtl-433",
+    "description": "rtl-433 is a tool for decoding 433.9 MHz radio frequency data, commonly used for weather stations, security systems, and other low-power devices."
   },
   {
     "name": "libnfc-dev",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=libnfc-dev"
+    "url": "https://packages.debian.org/search?keywords=libnfc-dev",
+    "description": "libnfc-dev: Development files for the Near Field Communication (NFC) library, enabling software development for NFC devices on various platforms."
   },
   {
     "name": "avrdude",
     "method": "apt",
     "module": "wireless",
-    "url": "https://packages.debian.org/search?keywords=avrdude"
+    "url": "https://packages.debian.org/search?keywords=avrdude",
+    "description": "avrdude is a software tool for programming Atmel AVR microcontrollers via a serial connection."
   },
   {
     "name": "sipvicious",
     "method": "pipx",
     "module": "wireless",
-    "url": "https://pypi.org/project/sipvicious/"
+    "url": "https://pypi.org/project/sipvicious/",
+    "description": "sipvicious is a Python library for SIP testing and analysis, primarily used for security assessments and penetration testing."
   },
   {
     "name": "wifite2",
     "method": "git",
     "module": "wireless",
-    "url": "https://github.com/derv82/wifite2"
+    "url": "https://github.com/derv82/wifite2",
+    "description": "wifite2 is a Python script for auditing wireless networks, automating the process of capturing and cracking WPS, WPA, and WEP passwords using various methods. It is designed for Kali Linux and requires a wireless card with monitor mode and packet injection capabilities."
   },
   {
     "name": "fluxion",
     "method": "git",
     "module": "wireless",
-    "url": "https://github.com/FluxionNetwork/fluxion"
+    "url": "https://github.com/FluxionNetwork/fluxion",
+    "description": "Fluxion is a security auditing and social-engineering tool for capturing WPA/WPA2 handshakes using a captive portal attack on Linux-based systems, particularly Kali Linux."
   },
   {
     "name": "airgeddon",
     "method": "git",
     "module": "wireless",
-    "url": "https://github.com/v1s1t0r1sh3r3/airgeddon"
+    "url": "https://github.com/v1s1t0r1sh3r3/airgeddon",
+    "description": "A multi-use bash script for Linux systems to audit wireless networks, supporting WEP, WPA, WPA2, and WPA3."
   },
   {
     "name": "hostapd-mana",
     "method": "git",
     "module": "wireless",
-    "url": "https://github.com/sensepost/hostapd-mana"
+    "url": "https://github.com/sensepost/hostapd-mana",
+    "description": "hostapd-mana: SensePost's modified hostapd for WiFi attacks, targeting WPA2 networks."
   },
   {
     "name": "wifiphisher",
     "method": "git",
     "module": "wireless",
-    "url": "https://github.com/wifiphisher/wifiphisher"
+    "url": "https://github.com/wifiphisher/wifiphisher",
+    "description": "Wifiphisher is a rogue Access Point framework for conducting Wi-Fi security testing and penetration testing, enabling users to perform targeted Wi-Fi association attacks and mount phishing attacks to capture credentials or infect devices."
   },
   {
     "name": "PSKracker",
     "method": "git",
     "module": "wireless",
-    "url": "https://github.com/soxrok2212/PSKracker"
+    "url": "https://github.com/soxrok2212/PSKracker",
+    "description": "PSKracker is a C-based tool for generating default passwords and WPS pins for various Wi-Fi models, primarily for security testing and auditing."
   },
   {
     "name": "eaphammer",
     "method": "git",
     "module": "wireless",
-    "url": "https://github.com/s0lst1c3/eaphammer"
+    "url": "https://github.com/s0lst1c3/eaphammer",
+    "description": "eaphammer is a toolkit for performing targeted evil twin attacks against WPA2-Enterprise networks, designed for use in wireless assessments and red team engagements."
   },
   {
     "name": "wifipumpkin3",
     "method": "git",
     "module": "wireless",
-    "url": "https://github.com/P0cL4bs/wifipumpkin3"
+    "url": "https://github.com/P0cL4bs/wifipumpkin3",
+    "description": "wifipumpkin3 is a Python-based framework for conducting rogue access point and man-in-the-middle attacks, targeting Linux platforms."
   },
   {
     "name": "proxmark3",
     "method": "git",
     "module": "wireless",
-    "url": "https://github.com/RfidResearchGroup/proxmark3"
+    "url": "https://github.com/RfidResearchGroup/proxmark3",
+    "description": "proxmark3 is an open-source tool for RFID analysis and hacking, supporting protocols like ISO14443A, ISO14443B, and MIFARE, and enabling cloning, simulation, and penetration testing of RFID tags."
   },
   {
     "name": "mousejack",
     "method": "git",
     "module": "wireless",
-    "url": "https://github.com/BastilleResearch/mousejack"
+    "url": "https://github.com/BastilleResearch/mousejack",
+    "description": "MouseJack is a tool for discovering and researching vulnerabilities in wireless mice using the Bluetooth protocol."
   },
   {
     "name": "mfdread",
     "method": "git",
     "module": "wireless",
-    "url": "https://github.com/zhovner/mfdread"
+    "url": "https://github.com/zhovner/mfdread",
+    "description": "mfdread is a Python script for parsing Mifare 1k/4k and Mifare Mini dumps into human-readable format, typically used with tools like mfterm or mfoc."
   },
   {
     "name": "libnfc-crypto1-crack",
