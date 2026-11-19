@@ -5013,9 +5013,16 @@
   },
   {
     "name": "hex-viewer-online",
-    "method": "browser",
+    "method": "git",
     "module": "forensics",
-    "url": "https://theluckystrike.github.io/zovo-plugin-factory/tools/hex-viewer/",
+    "url": "https://github.com/theluckystrike/hex-viewer-vscode",
     "description": "Browser-based hex viewer that displays any file as hex and text without uploading the file, including a data inspector, find, and structure view for multiple formats."
+  },
+  {
+    "name": "hex-viewer-online",
+    "method": "git",
+    "module": "forensics",
+    "url": "https://github.com/theluckystrike/elf-pe-viewer-vscode",
+    "description": "Browser-based ELF viewer and PE viewer for VS Code: headers, sections, imports, exports, symbols and a hex view for ELF, PE (EXE, DLL) and Mach-O files."
   }
 ]
