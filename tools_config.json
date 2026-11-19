@@ -5010,5 +5010,12 @@
     "module": "llm",
     "url": "https://github.com/w0h1v/mcp-virustotal",
     "description": "mcp-virustotal is an MCP server for VirusTotal API, providing comprehensive security reports, relationship analysis, and pagination support for URLs, files, IPs, and domains."
+  },
+  {
+    "name": "hex-viewer-online",
+    "method": "browser",
+    "module": "forensics",
+    "url": "https://theluckystrike.github.io/zovo-plugin-factory/tools/hex-viewer/",
+    "description": "Browser-based hex viewer that displays any file as hex and text without uploading the file, including a data inspector, find, and structure view for multiple formats."
   }
 ]
