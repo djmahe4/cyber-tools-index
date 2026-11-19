@@ -5012,7 +5012,7 @@
     "description": "Browser-based hex viewer that displays any file as hex and text without uploading the file, including a data inspector, find, and structure view for multiple formats."
   },
   {
-    "name": "hex-viewer-online",
+    "name": "elf-pe-viewer-vscode",
     "method": "git",
     "module": "forensics",
     "url": "https://github.com/theluckystrike/elf-pe-viewer-vscode",
